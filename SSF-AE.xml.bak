@@ -3008,11 +3008,6 @@ sistemas de información</content>
       <folder name="Dominio de uso y apropiación de la arquitectura" id="id-e99f30f412a749f79002ca176d0bcc55"/>
     </folder>
     <folder name="TO-BE" id="id-f8967772a8ad45a3b91986811e80a19d"/>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="archimate componentes" id="id-a32bf1643a9b47a68405c926b58e46a2">
-      <child xsi:type="archimate:Group" id="id-e07adae651244d169dc500aa9b19a02b" name="Agrupador de Elementos" textAlignment="1">
-        <bounds x="72" y="204" width="222" height="112"/>
-      </child>
-    </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-530f3d8849244de987783f7ff909b4eb">
       <child xsi:type="archimate:Group" id="id-6c8f045e1ff04253b2385520080ce01a" name="Fuentes de datos" textAlignment="1">
         <bounds x="84" y="276" width="265" height="433"/>
