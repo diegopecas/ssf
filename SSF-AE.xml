@@ -3098,7 +3098,7 @@ sistemas de información</content>
         <content>Procesos seleccionados</content>
       </child>
       <child xsi:type="archimate:Note" id="id-17ab505c63b040a88aee55ad68cd2082" textAlignment="1">
-        <bounds x="36" y="24" width="185" height="80"/>
+        <bounds x="252" y="24" width="185" height="80"/>
         <content>Modelos de arquitectura empresarial</content>
       </child>
     </element>

@@ -3092,7 +3092,16 @@ sistemas de información</content>
       <folder name="Dominio de uso y apropiación de la arquitectura" id="id-e99f30f412a749f79002ca176d0bcc55"/>
     </folder>
     <folder name="TO-BE" id="id-f8967772a8ad45a3b91986811e80a19d"/>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Inicio" id="id-642583458afb4c2d84ff2b2fb715af38"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Inicio" id="id-642583458afb4c2d84ff2b2fb715af38">
+      <child xsi:type="archimate:Note" id="id-f0d1348f4d094e05946bd0cb469d0cfd" textAlignment="1">
+        <bounds x="48" y="24" width="185" height="80"/>
+        <content>Procesos seleccionados</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-17ab505c63b040a88aee55ad68cd2082" textAlignment="1">
+        <bounds x="36" y="24" width="185" height="80"/>
+        <content>Modelos de arquitectura empresarial</content>
+      </child>
+    </element>
   </folder>
   <profile name="Objetivo" id="id-89130e15a55241639cd41e94ce046368" conceptType="Goal"/>
 </archimate:model>
