@@ -3097,6 +3097,10 @@ sistemas de información</content>
         <bounds x="48" y="24" width="185" height="80"/>
         <content>Procesos seleccionados</content>
       </child>
+      <child xsi:type="archimate:Note" id="id-17ab505c63b040a88aee55ad68cd2082" textAlignment="1">
+        <bounds x="36" y="24" width="185" height="80"/>
+        <content>Modelos de arquitectura empresarial</content>
+      </child>
     </element>
   </folder>
   <profile name="Objetivo" id="id-89130e15a55241639cd41e94ce046368" conceptType="Goal"/>
