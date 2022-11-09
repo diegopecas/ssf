@@ -3092,6 +3092,7 @@ sistemas de información</content>
       <folder name="Dominio de uso y apropiación de la arquitectura" id="id-e99f30f412a749f79002ca176d0bcc55"/>
     </folder>
     <folder name="TO-BE" id="id-f8967772a8ad45a3b91986811e80a19d"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Inicio" id="id-642583458afb4c2d84ff2b2fb715af38"/>
   </folder>
   <profile name="Objetivo" id="id-89130e15a55241639cd41e94ce046368" conceptType="Goal"/>
 </archimate:model>
