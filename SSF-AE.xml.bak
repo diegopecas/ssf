@@ -861,7 +861,6 @@
     <element xsi:type="archimate:AssociationRelationship" id="id-98a7cff0a8b44f46a2ec9db4af072623" source="id-f54906b061ad4870b89b3e4c8a6e334a" target="id-a02f22a67e1047748eee37088a7cfe8d"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b94895d6e2f7493fa66566e9459123fa" source="id-c6709d45937040749f5b07291410293f" target="id-4a453777395c4a3ea98967b2891479b2"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ff0d88a4f80943c39430168884cf7904" source="id-c6709d45937040749f5b07291410293f" target="id-dca3050022fd43f9a499d3221aea0329"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-9d3fa8a12bf245e7992815a24a708a43" source="id-5fb226b7997e41679211aa8ed927d683" target="id-fbf5beaa1545403cb059946ea8db9406"/>
   </folder>
   <folder name="Views" id="id-628304712aee4e999aa8dd2aa2c699b7" type="diagrams">
     <folder name="Metamodelo AE" id="id-a2f5818164894109b399dd39bd167f14">
@@ -2856,7 +2855,7 @@ sistemas de información</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-c33d711c2d0c4dba90c3c58f259e6588" source="id-cfeb9971193c49bcbe8de61c576da366" target="id-074699093c8d4a92ae340d9c05ea5034" archimateRelationship="id-85c2c6f3023a47efbdb6225cf114952b"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c68c8a62be82412695e4cc71d49d7c09" source="id-cfeb9971193c49bcbe8de61c576da366" target="id-d271d42644d546aba37e02df34be59b8" archimateRelationship="id-0a5aca35906c4a62a12d88b091d0b45a"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-0d21255c9b1f40e99ed74fcbfb8a9a3e" targetConnections="id-407aed476f4d4951a2231a538a68e00b" archimateElement="id-fbf5beaa1545403cb059946ea8db9406">
+            <child xsi:type="archimate:DiagramObject" id="id-0d21255c9b1f40e99ed74fcbfb8a9a3e" archimateElement="id-fbf5beaa1545403cb059946ea8db9406">
               <bounds x="216" y="48" width="120" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-920e44feb42542c2ba10e59546dfb10c" source="id-0d21255c9b1f40e99ed74fcbfb8a9a3e" target="id-bc7001711c96474283a5aa6a712ef0a2" archimateRelationship="id-47a56ee386f4406fba02ca35a038009b"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-34202b20573e4c2c83836a8e0564de75" source="id-0d21255c9b1f40e99ed74fcbfb8a9a3e" target="id-cfeb9971193c49bcbe8de61c576da366" archimateRelationship="id-888833741a654e98ae559acc8ca1e7cf"/>
@@ -2908,10 +2907,6 @@ sistemas de información</content>
                 <bendpoint startX="216" startY="-9" endX="72" endY="129"/>
                 <bendpoint startX="228" startY="-57" endX="84" endY="81"/>
               </sourceConnection>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-9069309c5c2c4b5880614b3d8a702393" archimateElement="id-5fb226b7997e41679211aa8ed927d683">
-              <bounds x="48" y="48" width="120" height="55"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-407aed476f4d4951a2231a538a68e00b" source="id-9069309c5c2c4b5880614b3d8a702393" target="id-0d21255c9b1f40e99ed74fcbfb8a9a3e" archimateRelationship="id-9d3fa8a12bf245e7992815a24a708a43"/>
             </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Modelo Operativo GSI" id="id-2584f9eabf7246ac9c9baa35a33c75da">
