@@ -11,7 +11,6 @@
     </folder>
     <folder name="Capacidades" id="id-a6e9cf17ec3b468f860a80408d20b4f7">
       <element xsi:type="archimate:Capability" name="C1.15 Gestionar el  Comité Técnico de Atención al Ciudadano" id="id-c29f5ae85cbc4f2f981249a752811756"/>
-      <element xsi:type="archimate:Capability" name="C4.6 Realizar el seguimiento a la gestión de servicios y atención a usuarios" id="id-ae0d2e4d16d048aaafef3be4e1ab0f57"/>
       <element xsi:type="archimate:Capability" name="C1 Gestionar la interacción con el ciudadano" id="id-a02f22a67e1047748eee37088a7cfe8d"/>
       <element xsi:type="archimate:Capability" name="C1.1 Divulgar los servicios de la SSF" id="id-a2d681bafd694cc1a9ea5ca1aba71f2a"/>
       <element xsi:type="archimate:Capability" name="C1.10 Orientar a los grupos de interés sobre sus derechos y deberes" id="id-370ee03ec22940eb9eab74c49e25b140"/>
@@ -46,12 +45,12 @@
       <element xsi:type="archimate:Capability" name="C3.6 Atender auditorías externas e internas" id="id-4c7ef3a1c57f40aaa42d4cbc48b461e6"/>
       <element xsi:type="archimate:Capability" name="C4 Gestionar los sistemas de información" id="id-e5e2e1f6e4a747cfbd8b526690e5bec1"/>
       <element xsi:type="archimate:Capability" name="C4.1 Definir la Estrategia de Servicios TIC" id="id-113d7fc713654028ae22c953cd2004ff"/>
-      <element xsi:type="archimate:Capability" name="C4.2 Diseñar Servicios TIC" id="id-664c63198eb64d75b9f31d12df6db04d"/>
-      <element xsi:type="archimate:Capability" name="C4.3 Realizar la transición de los Servicios TIC" id="id-010314fb612e426ba76b9ce882de19d8"/>
-      <element xsi:type="archimate:Capability" name="C4.4 Operar los Servicios TIC" id="id-769a141a1042465a8364fd5b2a485504"/>
-      <element xsi:type="archimate:Capability" name="C4.5 Realizar el seguimiento a la gestión de servicios y atención a Usuarios" id="id-de63f7ce25a94f66814360bc4136f1fe"/>
-      <element xsi:type="archimate:Capability" name="C4.6 Atender auditorías externas e internas" id="id-2d8077a357b446e18c460806fe4c8277"/>
-      <element xsi:type="archimate:Capability" name="C4.7 Definir e implementar acciones de mejora del proceso" id="id-e78585d78a4e4e95ad02cb1f9ce34dac"/>
+      <element xsi:type="archimate:Capability" name="C4.2 Diseñar nuevos servicios TI" id="id-664c63198eb64d75b9f31d12df6db04d"/>
+      <element xsi:type="archimate:Capability" name="C4.3 Realizar cambios o mejoras a los servicios" id="id-010314fb612e426ba76b9ce882de19d8"/>
+      <element xsi:type="archimate:Capability" name="C4.4 Desarrollar e implementar servicios TI" id="id-769a141a1042465a8364fd5b2a485504"/>
+      <element xsi:type="archimate:Capability" name="C4.5 Operar los servicios TIC de manera efectiva y eficiente" id="id-de63f7ce25a94f66814360bc4136f1fe"/>
+      <element xsi:type="archimate:Capability" name="C4.6 Realizar el seguimiento a la gestión de servicios y atención a usuarios" id="id-2d8077a357b446e18c460806fe4c8277"/>
+      <element xsi:type="archimate:Capability" name="C4.7 Atender auditorías externas e internas" id="id-e78585d78a4e4e95ad02cb1f9ce34dac"/>
       <element xsi:type="archimate:Capability" name="C4.8 Definir e implementar acciones de mejora del proceso" id="id-e29c93bc833944f8b0b5104dd029140d"/>
     </folder>
     <folder name="Canales" id="id-e3dcacb251a14c42aa9670912f0b5e21">
@@ -807,7 +806,6 @@
     <element xsi:type="archimate:TriggeringRelationship" id="id-ad47004907214f9d9a5d8ec6b43ecdca" source="id-bcc925bba27543b1bdd3c9e345c61c4e" target="id-c710f0bc5fbd4928be2a074a3ed2d67f"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-e87b2fd615f248a3b6c8c0afd36c2626" source="id-bcc925bba27543b1bdd3c9e345c61c4e" target="id-cdcbd87bf00440ddb3a8c9289a2c70dc"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-0a1f3364112a440995d7532540ebd01f" source="id-457a4b70da174b48afa7ed013c18210e" target="id-cdcbd87bf00440ddb3a8c9289a2c70dc"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-37a55b7885354fd2b0591cb7defa3330" source="id-a1eb01ad279d4d999a340cf8cf9c36a0" target="id-ae0d2e4d16d048aaafef3be4e1ab0f57"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-4d99250b624f4bd69668b20a6778f0c6" source="id-7dd9385f3e3b4578b87d04da06f21387" target="id-113d7fc713654028ae22c953cd2004ff"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-5d1128cd05424eb29f7f03ec9e15ea19" source="id-9ab750d35f7946f98fc7b6e29692244e" target="id-c29f5ae85cbc4f2f981249a752811756"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-46f611a69d57435faf51f15cb6a351f7" source="id-a02f22a67e1047748eee37088a7cfe8d" target="id-66f3af3230464a61a21abe29db04a80c"/>
@@ -1140,52 +1138,61 @@
           <bounds x="24" y="12" width="781" height="80"/>
           <content>Dominio de arquitectura misional</content>
         </child>
-        <child xsi:type="archimate:Group" id="id-97ce69e6cebc4d7d907badcb2d4b9596" name="BMM" textAlignment="1">
-          <bounds x="66" y="193" width="307" height="432"/>
+        <child xsi:type="archimate:Group" id="id-97ce69e6cebc4d7d907badcb2d4b9596" name="Modelo estratégico" textAlignment="1">
+          <bounds x="30" y="120" width="307" height="432"/>
           <child xsi:type="archimate:DiagramModelReference" id="id-30f7fb320d544f1f89e1ae804ac5dfb4" model="id-f62b8869c8e1491c9f40c941e1c4f280">
-            <bounds x="48" y="36" width="120" height="55"/>
+            <bounds x="24" y="192" width="145" height="73"/>
+            <feature name="labelExpression" value="Modelo estratégico Evaluación de la gestión CCF "/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-801fce806e0b43bb9d0a7a130c7caa48" model="id-ed02688ac9b0406296e4d1eb10281f5f">
-            <bounds x="48" y="120" width="120" height="55"/>
+            <bounds x="24" y="36" width="145" height="55"/>
+            <feature name="labelExpression" value="Modelo estratégico general"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-9903974d60914d2892cfe9c189f4a141" model="id-6b0342812cff48de9f6e31366eb597cd">
-            <bounds x="48" y="204" width="120" height="55"/>
+            <bounds x="24" y="348" width="145" height="73"/>
+            <feature name="labelExpression" value="Modelo estratégico Gestión de sistemas de información"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-70e8a2946e404e74b037222aefd7d791" model="id-d00a7ddd5f9c4b7c9c88df0c309d6a36">
-            <bounds x="48" y="276" width="120" height="55"/>
+            <bounds x="24" y="108" width="145" height="73"/>
+            <feature name="labelExpression" value="Modelo estratégico Interacción con el ciudadano"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-5f798967354e4b5892c83c736a081c2b" model="id-03e2b1d22c1b47f1a846dc3f8a10c9d7">
-            <bounds x="48" y="360" width="120" height="55"/>
+            <bounds x="24" y="276" width="145" height="55"/>
+            <feature name="labelExpression" value="Modelo estratégico Planeación institucional"/>
           </child>
         </child>
-        <child xsi:type="archimate:Group" id="id-f08fb98cd52144c78185615085651448" name="Capacidades" textAlignment="1">
-          <bounds x="384" y="193" width="349" height="432"/>
+        <child xsi:type="archimate:Group" id="id-f08fb98cd52144c78185615085651448" name="Modelo de Capacidades" textAlignment="1">
+          <bounds x="348" y="120" width="313" height="432"/>
           <child xsi:type="archimate:DiagramModelReference" id="id-9539bc907f97402c86a3a82967a3d20b" model="id-2b0d31b54ccf4450ab8074905c76f8b7">
-            <bounds x="133" y="67" width="120" height="55"/>
+            <bounds x="17" y="108" width="152" height="55"/>
+            <feature name="labelExpression" value="C2 Evaluar la gestión de las CCF"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-a2028f5cb53947f881cbc380b3d132a5" model="id-4d874ed952c34096badc035ef4ff5e4b">
-            <bounds x="136" y="184" width="120" height="55"/>
+            <bounds x="17" y="252" width="152" height="55"/>
+            <feature name="labelExpression" value="C4 Gestionar los sistemas de información"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-106e9d87fa874d9e8544e5cbdefd6d86" model="id-de581b85b0fd46bcbe30fe50a5b5fdb5">
-            <bounds x="213" y="309" width="120" height="55"/>
+            <bounds x="17" y="36" width="152" height="55"/>
+            <feature name="labelExpression" value="C1 Gestionar la interacción con el ciudadano"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-d9998957f0754bdfa5a366e8ad7155d7" model="id-cf1d4fea79884ab0aacbc2121fe29e9d">
-            <bounds x="36" y="309" width="120" height="55"/>
+            <bounds x="17" y="180" width="152" height="55"/>
+            <feature name="labelExpression" value="C3 Gestionar la planeación institucional"/>
           </child>
         </child>
         <child xsi:type="archimate:Group" id="id-97d530e4b33942ba91baeefee2d5fce6" name="Modelos operativos" textAlignment="1">
-          <bounds x="744" y="193" width="337" height="432"/>
+          <bounds x="672" y="120" width="277" height="432"/>
           <child xsi:type="archimate:DiagramModelReference" id="id-ee1923c6d18e4a3cb47bd017af2a1623" model="id-13f0b8f9da3f4682818b23d9a7cbbd91">
-            <bounds x="124" y="68" width="120" height="55"/>
+            <bounds x="24" y="108" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-174339eb24d349788c8df8b6ead491b4" model="id-2584f9eabf7246ac9c9baa35a33c75da">
-            <bounds x="157" y="179" width="120" height="55"/>
+            <bounds x="24" y="252" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-02d3d7e5c7e745f588529e62a71d2131" model="id-600525656309496984be915786e2c6f7">
-            <bounds x="202" y="274" width="120" height="55"/>
+            <bounds x="24" y="36" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="id-b09ecf30879a48a48b9b27fd21414f41" model="id-6f44897431f84bfa991308d619903c34">
-            <bounds x="48" y="274" width="120" height="55"/>
+            <bounds x="24" y="179" width="120" height="55"/>
           </child>
         </child>
       </element>
@@ -2569,7 +2576,7 @@ sistemas de información</content>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2c1c7b055dd643f4a6ecb4d5180ba088" archimateElement="id-9c66186df4cf4f72a2a44b4d8dab8141">
-              <bounds x="12" y="12" width="369" height="55"/>
+              <bounds x="12" y="12" width="181" height="55"/>
             </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="BMM GSI" id="id-6b0342812cff48de9f6e31366eb597cd">
@@ -2592,7 +2599,6 @@ sistemas de información</content>
                 <sourceConnection xsi:type="archimate:Connection" id="id-af8c877f35a94a6eb67fd5dd07891341" source="id-09ea0642d1de4a98b3bbfa98f83a1dd1" target="id-44851d5f5e7040ffa7559984920f4790" archimateRelationship="id-162f09b53992450f80af41fe0b5d4a77"/>
                 <child xsi:type="archimate:DiagramObject" id="id-44851d5f5e7040ffa7559984920f4790" targetConnections="id-ac31d0a9eacb4a269745cee6ce051b5c id-af8c877f35a94a6eb67fd5dd07891341" archimateElement="id-7fe063c683394b43bca57a25607476c6">
                   <bounds x="12" y="24" width="349" height="109"/>
-                  <sourceConnection xsi:type="archimate:Connection" id="id-f2bf0c8302684df49f73bb8a9a6ceaf4" source="id-44851d5f5e7040ffa7559984920f4790" target="id-3e463e57082f4734bb884f4f0e1437e3" archimateRelationship="id-74cb9accde044286bfced9b51f2f347e"/>
                 </child>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-5647d15237e345c984d3225a3b6599e1" archimateElement="id-2c22ec2fd3284bc68fd795296880ed63">
@@ -2623,8 +2629,8 @@ sistemas de información</content>
                 </child>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-3e463e57082f4734bb884f4f0e1437e3" targetConnections="id-f2bf0c8302684df49f73bb8a9a6ceaf4" archimateElement="id-0a74200f9d8347fead2f0021a29b6389">
-              <bounds x="16" width="369" height="55"/>
+            <child xsi:type="archimate:DiagramObject" id="id-3e463e57082f4734bb884f4f0e1437e3" archimateElement="id-0a74200f9d8347fead2f0021a29b6389">
+              <bounds x="16" width="189" height="55"/>
             </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="BMM gral" id="id-ed02688ac9b0406296e4d1eb10281f5f">
@@ -2684,7 +2690,9 @@ sistemas de información</content>
                 <child xsi:type="archimate:DiagramObject" id="id-9e0aa41ac3e5476b89a1762ba79655dd" targetConnections="id-a4d80456ff0547948a41da677e274634" archimateElement="id-fa449f1267014e89a04bf1cad9ae91dc">
                   <bounds x="13" y="36" width="408" height="73"/>
                   <sourceConnection xsi:type="archimate:Connection" id="id-c68e86f4e19c46f1bd682e36027dc2ac" source="id-9e0aa41ac3e5476b89a1762ba79655dd" target="id-7c64c74a048a4ffe9bcdce1262420cca" archimateRelationship="id-4da8dadb05514d6ca436b151e588040c">
-                    <bendpoint startX="480" startY="-6" endX="96" endY="-243"/>
+                    <bendpoint startX="468" endX="120" endY="-242"/>
+                    <bendpoint startX="468" startY="144" endX="120" endY="-98"/>
+                    <bendpoint startX="468" startY="228" endX="120" endY="-14"/>
                   </sourceConnection>
                 </child>
               </child>
@@ -2702,10 +2710,10 @@ sistemas de información</content>
                 <bounds x="12" y="384" width="193" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-7c64c74a048a4ffe9bcdce1262420cca" targetConnections="id-fcc374c82ec44081863e837d8d9e1a03 id-8c1ab80f09f1487d984902f328023800 id-c68e86f4e19c46f1bd682e36027dc2ac" archimateElement="id-f54906b061ad4870b89b3e4c8a6e334a">
-                <bounds x="12" y="468" width="265" height="55"/>
+                <bounds x="12" y="468" width="193" height="55"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-a9cfbae1a60e4f838d478d02228851f6" targetConnections="id-1c8daf1ca6e44151ab3e8831c644b61f id-7da2ceff4f3946359bfde4448308cf42" archimateElement="id-9c66186df4cf4f72a2a44b4d8dab8141">
-                <bounds x="12" y="552" width="265" height="55"/>
+                <bounds x="12" y="552" width="193" height="55"/>
               </child>
             </child>
           </element>
@@ -2737,11 +2745,9 @@ sistemas de información</content>
                 <sourceConnection xsi:type="archimate:Connection" id="id-f3e659bfa09c420fb137951920e3623b" source="id-0a432fd7b092443085c6b47d857c431f" target="id-1e5366760ef54be9a5ee75a6512dea82" archimateRelationship="id-533070995ab24f44b4d81a6da1ae9d52"/>
                 <child xsi:type="archimate:DiagramObject" id="id-1e5366760ef54be9a5ee75a6512dea82" targetConnections="id-f3e659bfa09c420fb137951920e3623b" archimateElement="id-0077470ce60f4232bd53f5639706171d">
                   <bounds x="11" y="120" width="349" height="60"/>
-                  <sourceConnection xsi:type="archimate:Connection" id="id-99e5802fa3bc4aca810588db57583a6d" source="id-1e5366760ef54be9a5ee75a6512dea82" target="id-cb015c009af9470793b881d386f8336c" archimateRelationship="id-687e53cf603643cd98ac90ed6babb62e"/>
                 </child>
                 <child xsi:type="archimate:DiagramObject" id="id-e3818e33bc0241d9a5bf7eb1398e27f2" targetConnections="id-0040bf55cca94ac397e3970d661aa371" archimateElement="id-fa449f1267014e89a04bf1cad9ae91dc">
                   <bounds x="12" y="36" width="348" height="68"/>
-                  <sourceConnection xsi:type="archimate:Connection" id="id-82639f37621d4709bef528c78b214ce6" source="id-e3818e33bc0241d9a5bf7eb1398e27f2" target="id-cb015c009af9470793b881d386f8336c" archimateRelationship="id-4da8dadb05514d6ca436b151e588040c"/>
                 </child>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-21afa94130414934bc6df29787831846" archimateElement="id-2c22ec2fd3284bc68fd795296880ed63">
@@ -2804,8 +2810,8 @@ sistemas de información</content>
                 </child>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-cb015c009af9470793b881d386f8336c" targetConnections="id-82639f37621d4709bef528c78b214ce6 id-99e5802fa3bc4aca810588db57583a6d" archimateElement="id-f54906b061ad4870b89b3e4c8a6e334a">
-              <bounds x="12" y="12" width="421" height="55"/>
+            <child xsi:type="archimate:DiagramObject" id="id-cb015c009af9470793b881d386f8336c" archimateElement="id-f54906b061ad4870b89b3e4c8a6e334a">
+              <bounds x="12" y="12" width="217" height="55"/>
             </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="BMM PI" id="id-03e2b1d22c1b47f1a846dc3f8a10c9d7">
@@ -2831,7 +2837,6 @@ sistemas de información</content>
                 <sourceConnection xsi:type="archimate:Connection" id="id-107ef54f7f114fab8f64dcdbb9cb7cc9" source="id-50764bb3e67346e29e233f2e9b8fbf2e" target="id-3981db7db1344eebb0fdf44aefa7f645" archimateRelationship="id-eabcf3e24b9e4ea6b6d7d45a120c24bd"/>
                 <child xsi:type="archimate:DiagramObject" id="id-3981db7db1344eebb0fdf44aefa7f645" targetConnections="id-107ef54f7f114fab8f64dcdbb9cb7cc9" archimateElement="id-0663845bef05407abb617656062b63d6">
                   <bounds x="13" y="36" width="408" height="55"/>
-                  <sourceConnection xsi:type="archimate:Connection" id="id-2d08d4f8b8c04c869ece9ac19fb5e775" source="id-3981db7db1344eebb0fdf44aefa7f645" target="id-33000fd7237741d2846b36539d73c0a4" archimateRelationship="id-f7ebd8e1bcf641fdb2d4f4dacc06532a"/>
                 </child>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-c1b1e7ff4d494545baf30083b08870b4" archimateElement="id-2c22ec2fd3284bc68fd795296880ed63">
@@ -2862,15 +2867,15 @@ sistemas de información</content>
                 </child>
               </child>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-33000fd7237741d2846b36539d73c0a4" targetConnections="id-2d08d4f8b8c04c869ece9ac19fb5e775" archimateElement="id-5fb226b7997e41679211aa8ed927d683">
-              <bounds y="12" width="421" height="55"/>
+            <child xsi:type="archimate:DiagramObject" id="id-33000fd7237741d2846b36539d73c0a4" archimateElement="id-5fb226b7997e41679211aa8ed927d683">
+              <bounds y="12" width="217" height="55"/>
             </child>
           </element>
         </folder>
         <folder name="Capacidades" id="id-d0884d946fea4f92a139551456717f49">
           <element xsi:type="archimate:ArchimateDiagramModel" name="Capacidades ECCF" id="id-2b0d31b54ccf4450ab8074905c76f8b7" viewpoint="capability">
             <child xsi:type="archimate:DiagramObject" id="id-4521e812ba2b4a1aa57fd5dd8f74dee3" textAlignment="1" archimateElement="id-ecbe9cc24d4f4b2fbf121f8cb7b12c2e">
-              <bounds x="24" y="24" width="277" height="349"/>
+              <bounds x="24" y="84" width="277" height="349"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d290a4e2a18748bab9ad3dc45d992303" source="id-4521e812ba2b4a1aa57fd5dd8f74dee3" target="id-008c26cd145548a9b6e27fc245c08be3" archimateRelationship="id-a7ec6caa2bce4b15a9207e0021080084"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c889347911e34683a82048a620389fc4" source="id-4521e812ba2b4a1aa57fd5dd8f74dee3" target="id-73c14a8a6c6f494d853ee5ec659032a1" archimateRelationship="id-bccd99bf15dd4f70a932dd38917cd073"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-63b192db3cb644b39f75356684dc8a82" source="id-4521e812ba2b4a1aa57fd5dd8f74dee3" target="id-e22494ef5f1a49839f227b35f278c2e6" archimateRelationship="id-aa8d3e2634f7469796371fce69af2be5"/>
@@ -2893,7 +2898,7 @@ sistemas de información</content>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-e4e7a526282e4203a8164a0b67cc271a" textAlignment="1" archimateElement="id-98f65983df5b41af99e061dd8d2d8097">
-              <bounds x="312" y="24" width="277" height="349"/>
+              <bounds x="312" y="84" width="277" height="349"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-a2f5ce325f0b43aab80656366ab50a75" source="id-e4e7a526282e4203a8164a0b67cc271a" target="id-f840f760308943d58e21023f8d12d59c" archimateRelationship="id-0acf4d56bd244601abd4a3b224dc06e7"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-a27e79f2a5c947e8a1d4aa599e079395" source="id-e4e7a526282e4203a8164a0b67cc271a" target="id-16bd766d27b04e76b4f2b6fa468a2a2f" archimateRelationship="id-40a7384e16cd42a9915f219e9cb58da9"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-7917d8e381ad4cd5b4a109ef34e00747" source="id-e4e7a526282e4203a8164a0b67cc271a" target="id-af434a92a0a44675ae3c0a655ac09f73" archimateRelationship="id-77071638d84f4f9da0c12c5095946f37"/>
@@ -2907,10 +2912,13 @@ sistemas de información</content>
                 <bounds x="24" y="156" width="229" height="49"/>
               </child>
             </child>
+            <child xsi:type="archimate:DiagramObject" id="id-2fd9db997ee04ae98e8a3b882b650b05" archimateElement="id-2c47afe87f4c48bd8cbe76a58873b5a5">
+              <bounds x="168" y="12" width="277" height="55"/>
+            </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Capacidades GSI" id="id-4d874ed952c34096badc035ef4ff5e4b" viewpoint="capability">
             <child xsi:type="archimate:DiagramObject" id="id-df162c4ac06647f9916d6be5f812fe06" textAlignment="1" archimateElement="id-a1eb01ad279d4d999a340cf8cf9c36a0">
-              <bounds x="24" y="12" width="277" height="337"/>
+              <bounds x="24" y="96" width="277" height="325"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-41e3bf27a0c74b0490379bcac73e7db9" source="id-df162c4ac06647f9916d6be5f812fe06" target="id-795a616911bc490e8d844b7223a683f5" archimateRelationship="id-792c17e46c2e4d1abdaaf17e82dad630"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-bdf86f4ffb20409dbf74106aaac8d9df" source="id-df162c4ac06647f9916d6be5f812fe06" target="id-cd6f0110663545299a1eb44e6b1359d9" archimateRelationship="id-58783edef8824ed19353754a77fe9d9d"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-452e2c04fb2348d0bca9d3c1d9546385" source="id-df162c4ac06647f9916d6be5f812fe06" target="id-ac20dcccca384193a918b30ba59faf76" archimateRelationship="id-0794da508da84ffbbccc3a117f2e1124"/>
@@ -2933,7 +2941,7 @@ sistemas de información</content>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-af92b305744c46c6a19cb947a19a92cb" textAlignment="1" archimateElement="id-7dd9385f3e3b4578b87d04da06f21387">
-              <bounds x="312" y="12" width="277" height="337"/>
+              <bounds x="312" y="96" width="277" height="325"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d986134be1b84ef991fd24f3cd1b57f8" source="id-af92b305744c46c6a19cb947a19a92cb" target="id-118326d9180f4062992ea8609d4f9084" archimateRelationship="id-bf32d9e2afbf4b27bb5e9deffa860bc5"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-a392579136a74fc5862c0a9bb7802eb6" source="id-af92b305744c46c6a19cb947a19a92cb" target="id-7d3af19520d442bea5fada6e539eae58" archimateRelationship="id-4d99250b624f4bd69668b20a6778f0c6"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e6049809ced74769ae84393f44569b93" source="id-af92b305744c46c6a19cb947a19a92cb" target="id-5c7d43270c8444d18ee2fc7b2912a2d3" archimateRelationship="id-c686261f77264ec1937bd9a3494450e5"/>
@@ -2947,10 +2955,13 @@ sistemas de información</content>
                 <bounds x="12" y="156" width="253" height="49"/>
               </child>
             </child>
+            <child xsi:type="archimate:DiagramObject" id="id-aae25a4023d24c53851c4d377aea8305" archimateElement="id-e5e2e1f6e4a747cfbd8b526690e5bec1">
+              <bounds x="180" y="12" width="253" height="55"/>
+            </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Capacidades IC" id="id-de581b85b0fd46bcbe30fe50a5b5fdb5" viewpoint="capability">
             <child xsi:type="archimate:DiagramObject" id="id-1060a39196c24d549621e1d795a74b54" textAlignment="1" archimateElement="id-9ab750d35f7946f98fc7b6e29692244e">
-              <bounds y="36" width="385" height="781"/>
+              <bounds y="96" width="385" height="781"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e63196f37f96481ba719d3d7c1196d47" source="id-1060a39196c24d549621e1d795a74b54" target="id-b5771ca244e944c3ad89e46853ad1f88" archimateRelationship="id-b2d8cf693f27497e8cdeaceae875ec8b"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e56b5c53daf14a97bdf8d7d53ee3229b" source="id-1060a39196c24d549621e1d795a74b54" target="id-112ff4b2b3204800b75785a23e1949e6" archimateRelationship="id-8e9e5c4ef58c4a79a7e80b0f9391e81b"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-800704743f7247eab04fd8508ab92df8" source="id-1060a39196c24d549621e1d795a74b54" target="id-6f6a2d47d21b4694be309659732bf6b9" archimateRelationship="id-86d6911075274d4f9f67b57bc7d2462c"/>
@@ -3005,7 +3016,7 @@ sistemas de información</content>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-209d6d0fe6f24c3489e658e4a46fd47f" textAlignment="1" archimateElement="id-55b003bc15624caaa9a578ce5fc56ccd">
-              <bounds x="396" y="36" width="301" height="781"/>
+              <bounds x="396" y="96" width="301" height="781"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-fcf732cec46c4795a09723f60cef8d7e" source="id-209d6d0fe6f24c3489e658e4a46fd47f" target="id-46d2fcd6a79b4a0f82477f5f010f4f4b" archimateRelationship="id-cae2abc5a457441bb6e4bd26c6b9e42e"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-a1a90ee9bb7e42a39bb2c1339d44e622" source="id-209d6d0fe6f24c3489e658e4a46fd47f" target="id-b904eb52a1a341c6a291c3d24fdb2c26" archimateRelationship="id-4900f0c0766345548f3892f71cf46cb2"/>
               <child xsi:type="archimate:DiagramObject" id="id-46d2fcd6a79b4a0f82477f5f010f4f4b" targetConnections="id-fcf732cec46c4795a09723f60cef8d7e" archimateElement="id-ad014c239d68463aa93ddc6d0f361efa">
@@ -3015,10 +3026,13 @@ sistemas de información</content>
                 <bounds x="12" y="96" width="277" height="37"/>
               </child>
             </child>
+            <child xsi:type="archimate:DiagramObject" id="id-3c2233792cc749aaa96b088ff84b5cbb" archimateElement="id-a02f22a67e1047748eee37088a7cfe8d">
+              <bounds x="192" y="12" width="360" height="55"/>
+            </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Capacidades PI" id="id-cf1d4fea79884ab0aacbc2121fe29e9d" viewpoint="capability">
             <child xsi:type="archimate:DiagramObject" id="id-2aa3d3a49e6a43a282f4a7243dbb08ef" textAlignment="1" archimateElement="id-2a3406e296144823bd29d9e486ad7c2f">
-              <bounds x="12" y="24" width="613" height="217"/>
+              <bounds x="12" y="96" width="613" height="217"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-951643cf50244f6fac2446f6840b079f" source="id-2aa3d3a49e6a43a282f4a7243dbb08ef" target="id-fc0e7d9ec5844c99aec5ec8dfe564ba0" archimateRelationship="id-23bd00ae6a5843d88e4aaa45427de54e"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-7b613e43bc504425903e1c89f47506aa" source="id-2aa3d3a49e6a43a282f4a7243dbb08ef" target="id-5acb0467ab954ad9bbb0ae4e756acdec" archimateRelationship="id-59613560c7d446f49348d3506d642c6b"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c8a7fcecfd65475d87361c3de1ffbe73" source="id-2aa3d3a49e6a43a282f4a7243dbb08ef" target="id-b64740ef91244568992d0856d19323d1" archimateRelationship="id-b25c2c3e6d6f4aad8a5a1e2fec29fa12"/>
@@ -3043,6 +3057,9 @@ sistemas de información</content>
               <child xsi:type="archimate:DiagramObject" id="id-b64740ef91244568992d0856d19323d1" targetConnections="id-c8a7fcecfd65475d87361c3de1ffbe73" archimateElement="id-4c7ef3a1c57f40aaa42d4cbc48b461e6">
                 <bounds x="168" y="120" width="145" height="73"/>
               </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-b0061d71e9024bc78ed9da9f0d15887e" archimateElement="id-fbf5beaa1545403cb059946ea8db9406">
+              <bounds x="192" y="31" width="253" height="55"/>
             </child>
           </element>
         </folder>
