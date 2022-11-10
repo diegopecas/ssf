@@ -3391,6 +3391,10 @@ sistemas de información</content>
       <child xsi:type="archimate:DiagramModelReference" id="id-99ce6659287d41e3a7e72443ffb1a9bb" targetConnections="id-1001deebfe064220901ef7dac57a4b93" model="id-0cafe6a98556403aa01121325377c196">
         <bounds x="564" y="672" width="205" height="55"/>
       </child>
+      <child xsi:type="archimate:Note" id="id-bf36d0a62a4a4dd2b1c7b7b3185b8650" textAlignment="1" borderType="2">
+        <bounds x="12" y="792" width="229" height="37"/>
+        <content>Elaborado por ALINA TECH - 2022</content>
+      </child>
     </element>
   </folder>
   <purpose>El objetivo de este documento es mostrar a través de vistas los elementos y las relaciones establecidas en el metamodelo de arquitectura empresarial en los escenarios Actual (AS-IS) y Futuro (TO-BE), lo cual permitirá comprender de mejor manera el ejercicio de arquitectura empresarial adelantado por la empresa ALINA TECH y la Superintendencia del Subsidio Familiar. </purpose>
