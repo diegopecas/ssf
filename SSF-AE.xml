@@ -1069,6 +1069,9 @@
           <bounds x="24" y="12" width="1021" height="80"/>
           <content>Dominio de arquitectura de infraestructura tecnológica</content>
         </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-61bb08227ed6416894e9b9e0cbba6a51" model="id-b3bf7de4bda643afa69fa1a831508ab5">
+          <bounds x="201" y="191" width="120" height="55"/>
+        </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de seguridad" id="id-e5218d222e154b69aa29337af49d2e4b">
         <child xsi:type="archimate:Note" id="id-9c9c409ed6384d8ea37f39aa43e3e1a5" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
