@@ -1140,6 +1140,54 @@
           <bounds x="24" y="12" width="781" height="80"/>
           <content>Dominio de arquitectura misional</content>
         </child>
+        <child xsi:type="archimate:Group" id="id-97ce69e6cebc4d7d907badcb2d4b9596" name="BMM" textAlignment="1">
+          <bounds x="66" y="193" width="307" height="432"/>
+          <child xsi:type="archimate:DiagramModelReference" id="id-30f7fb320d544f1f89e1ae804ac5dfb4" model="id-f62b8869c8e1491c9f40c941e1c4f280">
+            <bounds x="48" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-801fce806e0b43bb9d0a7a130c7caa48" model="id-ed02688ac9b0406296e4d1eb10281f5f">
+            <bounds x="48" y="120" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-9903974d60914d2892cfe9c189f4a141" model="id-6b0342812cff48de9f6e31366eb597cd">
+            <bounds x="48" y="204" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-70e8a2946e404e74b037222aefd7d791" model="id-d00a7ddd5f9c4b7c9c88df0c309d6a36">
+            <bounds x="48" y="276" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-5f798967354e4b5892c83c736a081c2b" model="id-03e2b1d22c1b47f1a846dc3f8a10c9d7">
+            <bounds x="48" y="360" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-f08fb98cd52144c78185615085651448" name="Capacidades" textAlignment="1">
+          <bounds x="384" y="193" width="349" height="432"/>
+          <child xsi:type="archimate:DiagramModelReference" id="id-9539bc907f97402c86a3a82967a3d20b" model="id-2b0d31b54ccf4450ab8074905c76f8b7">
+            <bounds x="133" y="67" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-a2028f5cb53947f881cbc380b3d132a5" model="id-4d874ed952c34096badc035ef4ff5e4b">
+            <bounds x="136" y="184" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-106e9d87fa874d9e8544e5cbdefd6d86" model="id-de581b85b0fd46bcbe30fe50a5b5fdb5">
+            <bounds x="213" y="309" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-d9998957f0754bdfa5a366e8ad7155d7" model="id-cf1d4fea79884ab0aacbc2121fe29e9d">
+            <bounds x="36" y="309" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-97d530e4b33942ba91baeefee2d5fce6" name="Modelos operativos" textAlignment="1">
+          <bounds x="744" y="193" width="337" height="432"/>
+          <child xsi:type="archimate:DiagramModelReference" id="id-ee1923c6d18e4a3cb47bd017af2a1623" model="id-13f0b8f9da3f4682818b23d9a7cbbd91">
+            <bounds x="124" y="68" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-174339eb24d349788c8df8b6ead491b4" model="id-2584f9eabf7246ac9c9baa35a33c75da">
+            <bounds x="157" y="179" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-02d3d7e5c7e745f588529e62a71d2131" model="id-600525656309496984be915786e2c6f7">
+            <bounds x="202" y="274" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramModelReference" id="id-b09ecf30879a48a48b9b27fd21414f41" model="id-6f44897431f84bfa991308d619903c34">
+            <bounds x="48" y="274" width="120" height="55"/>
+          </child>
+        </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de uso y apropiación de la arquitectura" id="id-0cafe6a98556403aa01121325377c196">
         <child xsi:type="archimate:Note" id="id-2849c7f2b9154804942d2358b0353642" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
