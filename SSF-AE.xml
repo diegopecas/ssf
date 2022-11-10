@@ -3293,7 +3293,6 @@ sistemas de información</content>
             </child>
           </element>
         </folder>
-        <element xsi:type="archimate:ArchimateDiagramModel" name="Modelo conceptual" id="id-348f926d8b654e3085a24429e724a4a8"/>
       </folder>
       <folder name="Dominio de uso y apropiación de la arquitectura" id="id-e99f30f412a749f79002ca176d0bcc55"/>
     </folder>
