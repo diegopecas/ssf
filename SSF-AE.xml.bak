@@ -1135,6 +1135,10 @@
         <child xsi:type="archimate:DiagramModelReference" id="id-1505c9241d31435ebc4f99968135b6c0" targetConnections="id-e2cca706d9b14f2a9fcc01b694b94041" model="id-48edfc049ce74ecba35c6ebc88cdaf25">
           <bounds x="336" y="696" width="326" height="55"/>
         </child>
+        <child xsi:type="archimate:Note" id="id-8815ad5732f74b8b8eaaa288a256496a" textAlignment="1">
+          <bounds x="276" y="91" width="185" height="80"/>
+          <content>Nota de sistemas de información</content>
+        </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura misional" id="id-b4fb286572784b37afd8381fa1cc23fc">
         <child xsi:type="archimate:Note" id="id-991ac01fd64646bd9ae3b1233bf8e7b2" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">

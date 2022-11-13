@@ -1469,7 +1469,7 @@
           <child xsi:type="archimate:Group" id="id-58a99e5e55ed4948a163d21313cd8b44" name="Integración y Almacenamiento" textAlignment="1">
             <bounds x="408" y="300" width="253" height="409"/>
             <child xsi:type="archimate:DiagramObject" id="id-4f30597a7f1442eaa222d2477bbf059d" targetConnections="id-552e61838d434204adf10ec20f52c5fc" archimateElement="id-a7ab6578e036443cba52a69aac0eb498">
-              <bounds x="48" y="168" width="157" height="181"/>
+              <bounds x="48" y="144" width="157" height="181"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e90131aae35b4db38dce78e4c410afbe" source="id-4f30597a7f1442eaa222d2477bbf059d" target="id-f8dcb8e7dc2c43e7a8697c42e7f27298" archimateRelationship="id-5ed70c64bd6d4593b5a56877681ea8b9"/>
               <child xsi:type="archimate:DiagramObject" id="id-f8dcb8e7dc2c43e7a8697c42e7f27298" targetConnections="id-e90131aae35b4db38dce78e4c410afbe" archimateElement="id-89342e007c3d46fc8c551426ce57de9c">
                 <bounds x="24" y="48" width="120" height="55"/>
