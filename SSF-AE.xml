@@ -224,6 +224,20 @@
       <element xsi:type="archimate:BusinessActor" name="Grupos de valor" id="id-c6709d45937040749f5b07291410293f"/>
       <element xsi:type="archimate:BusinessActor" name="Partes interesadas" id="id-02694bd47f90440297e95e8f2a24e8a2"/>
     </folder>
+    <element xsi:type="archimate:BusinessService" name="Gestion de información afiliados" id="id-e6fe5f04589b44698eb113b8a549b8b5"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión de información de empresas y aportantes" id="id-26040286998a4a5e8f19b019f2104425"/>
+    <element xsi:type="archimate:BusinessService" name="Gestion de información financiera" id="id-54f5509f910443189b0de05c474a7375"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión fondos de ley" id="id-d30fa4ffdc084996b8d854077fb21c5b"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión de PQRSF" id="id-eba2a55bd7fd465cbd73f20dfe107780"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión de memorandos" id="id-5ae9040afffa4f4198a4593b2bb46a63"/>
+    <element xsi:type="archimate:BusinessService" name="Evaluación de encuestas de satisfacción" id="id-7ddde3c5777647de843b861b38c5ddf7"/>
+    <element xsi:type="archimate:BusinessService" name="Seguimiento de planes y proyectos" id="id-31093506f8cf4570a541828ab056fab5"/>
+    <element xsi:type="archimate:BusinessService" name="Seguimiento MIPG" id="id-3dcbe6408cfa4bb99026753867677160"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión de auditorias" id="id-b8d270ff8f234d9bbb9ab5455486e7d1"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión de servicios de Ti" id="id-0bbabc6eee1e46229be4283006950e70"/>
+    <element xsi:type="archimate:BusinessService" name="Gestión de incidencias" id="id-2b86ef2ffdf44532b65eed80ff370a9a"/>
+    <element xsi:type="archimate:BusinessService" name="Seguimiento y control de planes y proyectos" id="id-eccd97f12f0f4461a8e5bdc835fc5afb"/>
+    <element xsi:type="archimate:BusinessService" name="Seguimiento y control de planes y proyectos " id="id-8c61bf1b8fad4f5995d3f1828e939507"/>
   </folder>
   <folder name="Application" id="id-393e48a82b4e436291782d13da030423" type="application">
     <folder name="Sistemas de información actual" id="id-f9d7d9bd771b4751a8ed13481226f34f">
@@ -1212,7 +1226,64 @@
     </folder>
     <folder name="AS-IS" id="id-dcc5c80a82d04f74a150348fbabeae6d">
       <folder name="Dominio de arquitectura de Información" id="id-a26d02e1d1b342dfb0030083f7b51db9">
-        <folder name="Flujos de información" id="id-0ca5a03f757f479a8a62331c4a191925"/>
+        <folder name="Flujos de información" id="id-0ca5a03f757f479a8a62331c4a191925">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Flujos de información" id="id-e2c4d9f14b0f4d7b93faa43895bc2bc4">
+            <child xsi:type="archimate:Group" id="id-ec9db0e7b79649159dd8b79040a77608" name="Flujos Evaluación de cajas de compensación" textAlignment="1">
+              <bounds x="134" y="125" width="443" height="188"/>
+              <child xsi:type="archimate:DiagramObject" id="id-56f117429d664b9e9e403e8edf7dfcc6" archimateElement="id-e6fe5f04589b44698eb113b8a549b8b5">
+                <bounds x="12" y="48" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-ccad3cd7dba6404c95b81d2751d61b61" archimateElement="id-26040286998a4a5e8f19b019f2104425">
+                <bounds x="156" y="48" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-d67ad3ff7ca6428e9e7c50b0e7dd6845" archimateElement="id-54f5509f910443189b0de05c474a7375">
+                <bounds x="300" y="48" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-4a018002442f4424acbe7608c489c037" archimateElement="id-d30fa4ffdc084996b8d854077fb21c5b">
+                <bounds x="168" y="120" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-1f9cca4ce2fc476a90c8001aaa8855fc" name="Flujos interacción con el ciudadano" textAlignment="1">
+              <bounds x="648" y="125" width="445" height="188"/>
+              <child xsi:type="archimate:DiagramObject" id="id-62bebf6a53b44affbcf9aa6931730169" archimateElement="id-eba2a55bd7fd465cbd73f20dfe107780">
+                <bounds x="24" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-18f490dc053b4d9985f07040bce8a55c" archimateElement="id-5ae9040afffa4f4198a4593b2bb46a63">
+                <bounds x="168" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-9d349620ec9f41f68f69465b10718d61" archimateElement="id-7ddde3c5777647de843b861b38c5ddf7">
+                <bounds x="312" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-7d5fd92819394f15b894eb0d7cc98ab3" archimateElement="id-8c61bf1b8fad4f5995d3f1828e939507">
+                <bounds x="168" y="108" width="120" height="73"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-06358f99e531433cb5ee9d5bd804b8ae" name="Flujos Planeación Institucional" textAlignment="1">
+              <bounds x="134" y="360" width="443" height="193"/>
+              <child xsi:type="archimate:DiagramObject" id="id-7e9afb753b8a4b52b79942eac735cc92" archimateElement="id-31093506f8cf4570a541828ab056fab5">
+                <bounds x="24" y="84" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-3508b3bf4f7f4550ab8e61753b96073e" archimateElement="id-3dcbe6408cfa4bb99026753867677160">
+                <bounds x="156" y="84" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-f03a0612a6734f09a6a0e110f8322c0d" archimateElement="id-b8d270ff8f234d9bbb9ab5455486e7d1">
+                <bounds x="300" y="84" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-36d65099d1374f61b8cd048ce43dc602" name="Flujos Gestión de Sistemas de Información" textAlignment="1">
+              <bounds x="648" y="360" width="469" height="193"/>
+              <child xsi:type="archimate:DiagramObject" id="id-71d80abea733475d831623c9464e35d1" archimateElement="id-0bbabc6eee1e46229be4283006950e70">
+                <bounds x="36" y="84" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-b3f7a0d9f4bc441b98dd83fae1729541" archimateElement="id-2b86ef2ffdf44532b65eed80ff370a9a">
+                <bounds x="180" y="84" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-dcaf957687b549f89ecc4489c7f5e375" archimateElement="id-eccd97f12f0f4461a8e5bdc835fc5afb">
+                <bounds x="312" y="75" width="120" height="73"/>
+              </child>
+            </child>
+          </element>
+        </folder>
         <element xsi:type="archimate:ArchimateDiagramModel" name="Entidades de información - Procesos" id="id-06f20bf320584bfbbf141cb245c11454">
           <child xsi:type="archimate:Group" id="id-e9850134b866487193d4c0a5e32f9fb0" name="Entidades de información EGCCF" textAlignment="1">
             <bounds x="23" y="120" width="241" height="613"/>
