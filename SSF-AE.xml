@@ -333,9 +333,7 @@
         <element xsi:type="archimate:ApplicationCollaboration" name="Atención y solución de PQRSF" id="id-ef3369a74395465793d16803435b4f9f"/>
         <element xsi:type="archimate:ApplicationCollaboration" name="Monitoreo y seguimiento de cajas de compensación familiar" id="id-481b4499417d45adac19efa5f146d6c8"/>
       </folder>
-      <folder name="Legacy" id="id-0f05d0be59ff40cdaa0467879239973a">
-        <element xsi:type="archimate:ApplicationComponent" name="APP-SSF" id="id-f834c5ce7b224857902c645f3d5b242b"/>
-      </folder>
+      <folder name="Legacy" id="id-0f05d0be59ff40cdaa0467879239973a"/>
       <folder name="Otros" id="id-dcbe3ef7914544779c30692081f5ff80">
         <element xsi:type="archimate:ApplicationComponent" name="Procesos ETL" id="id-b11bb14749dc434bb4e3313b4f2eb540"/>
         <element xsi:type="archimate:ApplicationComponent" name="Reporte Cajas de Compensación (XML)" id="id-457a4b70da174b48afa7ed013c18210e"/>
@@ -1069,9 +1067,6 @@
           <bounds x="24" y="12" width="1021" height="80"/>
           <content>Dominio de arquitectura de infraestructura tecnológica</content>
         </child>
-        <child xsi:type="archimate:DiagramModelReference" id="id-61bb08227ed6416894e9b9e0cbba6a51" model="id-b3bf7de4bda643afa69fa1a831508ab5">
-          <bounds x="201" y="191" width="120" height="55"/>
-        </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de seguridad" id="id-e5218d222e154b69aa29337af49d2e4b">
         <child xsi:type="archimate:Note" id="id-9c9c409ed6384d8ea37f39aa43e3e1a5" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
@@ -1499,37 +1494,25 @@
         </element>
       </folder>
       <folder name="Dominio de arquitectura de infraestructura tecnológica" id="id-0838053e747546f9861d6133addb8393">
-        <element xsi:type="archimate:ArchimateDiagramModel" name="APPSFF-Nodos" id="id-b3bf7de4bda643afa69fa1a831508ab5">
-          <child xsi:type="archimate:Group" id="id-64666d0245a74122ae23419b5aec4f47" name="Nodos Virtuales" textAlignment="1">
-            <bounds x="468" y="168" width="145" height="217"/>
-            <child xsi:type="archimate:DiagramObject" id="id-ca383be8ab604811b361f0034bfb6bd7" fillColor="#c8c8e3" archimateElement="id-c67ceba9a412407c8a7dd71d4d5f6997">
-              <bounds x="13" y="144" width="120" height="55"/>
-            </child>
-            <child xsi:type="archimate:Note" id="id-c457fc6d1d01443e99185a8d7a75780c" textAlignment="1">
-              <bounds y="48" width="145" height="61"/>
-              <content>Compartido con otros sistemas de información</content>
-            </child>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-3e1e531aa5084fed85a1c8ae935e04ad" archimateElement="id-f834c5ce7b224857902c645f3d5b242b">
-            <bounds x="468" y="84" width="145" height="55"/>
-          </child>
-        </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="CHAT-Nodos" id="id-232a7e98ee094d96abb2355ca20a9e0b">
           <child xsi:type="archimate:DiagramObject" id="id-ff03d1a9b8f544049d50493ee18cf78d" archimateElement="id-652267d4d6e14caba0550207b2553690">
             <bounds x="413" y="125" width="120" height="55"/>
+            <sourceConnection id="id-716cdcb002a74fdebf7c879698ac146a" source="id-ff03d1a9b8f544049d50493ee18cf78d" target="id-77c79c64449c4c7f92dd9dbd51a5fd1a"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-fcede9ffbbf14d90bb0ffb76eac1cc46" archimateElement="id-a53e3fd25430476f97b045bde2b4aa14">
             <bounds x="552" y="125" width="120" height="55"/>
+            <sourceConnection id="id-4d06bcadf31c4085a46d6a7750e33917" source="id-fcede9ffbbf14d90bb0ffb76eac1cc46" target="id-77c79c64449c4c7f92dd9dbd51a5fd1a"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-77c79c64449c4c7f92dd9dbd51a5fd1a" name="Nodos..." textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-77c79c64449c4c7f92dd9dbd51a5fd1a" name="Nodos..." targetConnections="id-716cdcb002a74fdebf7c879698ac146a id-4d06bcadf31c4085a46d6a7750e33917" textAlignment="1">
             <bounds x="420" y="192" width="252" height="205"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="DAVINCI-Nodos" id="id-01c414f484c4441485bdca4afc17d0da">
           <child xsi:type="archimate:DiagramObject" id="id-21e3641eb212491e99d2eaeb64e23b2a" archimateElement="id-be40dd843c2843b4af56c597cbd6be04">
             <bounds x="336" y="176" width="158" height="55"/>
+            <sourceConnection id="id-33bdf215233c4ccd97230e65ba74c234" source="id-21e3641eb212491e99d2eaeb64e23b2a" target="id-e25ed1501c90478fb355bcf481e5a90f"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-e25ed1501c90478fb355bcf481e5a90f" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-e25ed1501c90478fb355bcf481e5a90f" name="Nodos Virtuales" targetConnections="id-33bdf215233c4ccd97230e65ba74c234" textAlignment="1">
             <bounds x="336" y="264" width="158" height="140"/>
             <child xsi:type="archimate:DiagramObject" id="id-2c3015178d83425085251b197f482de5" archimateElement="id-77f3e3210bf34c3094d8e1947e1766e1">
               <bounds x="24" y="48" width="120" height="55"/>
@@ -1538,9 +1521,11 @@
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="GLPI-Nodos" id="id-797743a1adee41b984e528fdb313a543">
           <child xsi:type="archimate:DiagramObject" id="id-829dfbab841648fdaabba78d8f77e6d7" archimateElement="id-7bb8041bf3a046e2a22c17f375b9951a">
-            <bounds x="478" y="89" width="303" height="55"/>
+            <bounds x="478" y="72" width="303" height="55"/>
+            <sourceConnection id="id-10206e3a7e1a4c64b2db90ddc6db672e" source="id-829dfbab841648fdaabba78d8f77e6d7" target="id-6bc34635ab6b4b48bf32e71ea7f8fb0e"/>
+            <sourceConnection id="id-2d4740581936493e9486afbf27d38ab1" source="id-829dfbab841648fdaabba78d8f77e6d7" target="id-2c767447e84145459cc7367b93902f19"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-6bc34635ab6b4b48bf32e71ea7f8fb0e" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-6bc34635ab6b4b48bf32e71ea7f8fb0e" name="Nodos Virtuales" targetConnections="id-10206e3a7e1a4c64b2db90ddc6db672e" textAlignment="1">
             <bounds x="478" y="150" width="147" height="259"/>
             <child xsi:type="archimate:DiagramObject" id="id-c8628e99e1dc4abd9a6926613da49a08" archimateElement="id-ed109c7ddc0546a2afceed6a046b1317">
               <bounds x="12" y="24" width="120" height="55"/>
@@ -1553,7 +1538,7 @@
               <content>Compartido con otros sistemas de información</content>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-2c767447e84145459cc7367b93902f19" name="Nodos Fisicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-2c767447e84145459cc7367b93902f19" name="Nodos Fisicos" targetConnections="id-2d4740581936493e9486afbf27d38ab1" textAlignment="1">
             <bounds x="636" y="150" width="145" height="259"/>
             <child xsi:type="archimate:DiagramObject" id="id-a4f2996af7da4d33a2824a7f9d9e84d7" fillColor="#c8c8e3" archimateElement="id-59d93cbb7a474cd8a311590ef52c9898">
               <bounds x="12" y="36" width="120" height="55"/>
@@ -1570,9 +1555,11 @@ sistemas de información</content>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="GTSS-Nodos" id="id-70a9a7456910440eba7f7ba16fd94521">
           <child xsi:type="archimate:DiagramObject" id="id-d19c03c94ca44ab297d809c2b3b7f97f" archimateElement="id-d4e74009314b476f86c8a6e8be3702e7">
-            <bounds x="84" y="84" width="605" height="55"/>
+            <bounds x="84" y="72" width="605" height="55"/>
+            <sourceConnection id="id-c43da413384649e8925ed51ac8348cb5" source="id-d19c03c94ca44ab297d809c2b3b7f97f" target="id-04f6ac2650364c808a5f7e5ba094bddb"/>
+            <sourceConnection id="id-2df814d0ccad406f8553becaeeabcc34" source="id-d19c03c94ca44ab297d809c2b3b7f97f" target="id-17d9a354a3464ff0b8a7c249210cb2d2"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-17d9a354a3464ff0b8a7c249210cb2d2" name="Nodos Fisicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-17d9a354a3464ff0b8a7c249210cb2d2" name="Nodos Fisicos" targetConnections="id-2df814d0ccad406f8553becaeeabcc34" textAlignment="1">
             <bounds x="408" y="150" width="289" height="367"/>
             <child xsi:type="archimate:DiagramObject" id="id-d7298e6094a54402bb0a9ccd34064cf9" fillColor="#c8c8e3" archimateElement="id-59d93cbb7a474cd8a311590ef52c9898">
               <bounds x="144" y="240" width="120" height="55"/>
@@ -1600,7 +1587,7 @@ sistemas de información</content>
               <bounds x="159" y="72" width="120" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-04f6ac2650364c808a5f7e5ba094bddb" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-04f6ac2650364c808a5f7e5ba094bddb" name="Nodos Virtuales" targetConnections="id-c43da413384649e8925ed51ac8348cb5" textAlignment="1">
             <bounds x="84" y="150" width="301" height="367"/>
             <child xsi:type="archimate:DiagramObject" id="id-199fd95f75214e629321b0e6cd95ddc1" archimateElement="id-203bc8e59eab46d6b8f248f88f68731c">
               <bounds x="12" y="36" width="120" height="55"/>
@@ -1633,15 +1620,17 @@ sistemas de información</content>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="ISOLUTION-Nodos" id="id-f1360d4303c84883be623a63943fd53c">
           <child xsi:type="archimate:DiagramObject" id="id-bfe9cc27783845a093d4480603922e8d" archimateElement="id-bbefc0168fde4c2f952d0d53a7e41c49">
-            <bounds x="216" y="180" width="437" height="55"/>
+            <bounds x="216" y="168" width="437" height="55"/>
+            <sourceConnection id="id-aae88604b56948fda99d33e645c8e14e" source="id-bfe9cc27783845a093d4480603922e8d" target="id-42c30c50ee304e8bb000459657fa8762"/>
+            <sourceConnection id="id-0f1f02b7086f4da585416441ccba18da" source="id-bfe9cc27783845a093d4480603922e8d" target="id-a09083bf1f2d489383afa43c8ea877a4"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-42c30c50ee304e8bb000459657fa8762" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-42c30c50ee304e8bb000459657fa8762" name="Nodos Virtuales" targetConnections="id-aae88604b56948fda99d33e645c8e14e" textAlignment="1">
             <bounds x="216" y="246" width="145" height="209"/>
             <child xsi:type="archimate:DiagramObject" id="id-2bd3acf7a5db4a09a847338fca4ab775" archimateElement="id-83d60ac7ba894ad09e5affbfbe587798">
               <bounds x="12" y="72" width="120" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-a09083bf1f2d489383afa43c8ea877a4" name="Nodos Fisicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-a09083bf1f2d489383afa43c8ea877a4" name="Nodos Fisicos" targetConnections="id-0f1f02b7086f4da585416441ccba18da" textAlignment="1">
             <bounds x="372" y="246" width="281" height="209"/>
             <child xsi:type="archimate:DiagramObject" id="id-5ace824a5fbf4872adf99c9c267c4c6a" fillColor="#c8c8e3" archimateElement="id-59d93cbb7a474cd8a311590ef52c9898">
               <bounds x="144" y="36" width="120" height="55"/>
@@ -1663,7 +1652,7 @@ sistemas de información</content>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="MOODLE-Nodos" id="id-dca18ea78e464acc8730220a7536a11e">
-          <child xsi:type="archimate:Group" id="id-c18f18fa0c9e4fb29dd6f13b82af9fc4" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-c18f18fa0c9e4fb29dd6f13b82af9fc4" name="Nodos Virtuales" targetConnections="id-af39e52817b54318b1588d521e54bdb3" textAlignment="1">
             <bounds x="406" y="202" width="147" height="193"/>
             <child xsi:type="archimate:DiagramObject" id="id-8ee1e89656154596b9cb8adf51f5f7cc" archimateElement="id-e86c4f02a4ba4b1fbf49106cbee6b3b3">
               <bounds x="12" y="60" width="120" height="55"/>
@@ -1671,10 +1660,11 @@ sistemas de información</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-60290004d6914d9f8cfebb0506bc0cc0" archimateElement="id-45b6c8e7a0534e87b509d3f5f454e97f">
             <bounds x="406" y="132" width="147" height="55"/>
+            <sourceConnection id="id-af39e52817b54318b1588d521e54bdb3" source="id-60290004d6914d9f8cfebb0506bc0cc0" target="id-c18f18fa0c9e4fb29dd6f13b82af9fc4"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="NEON-Nodos" id="id-85029c23d296423ca9eb06e60ed47696">
-          <child xsi:type="archimate:Group" id="id-527f28f30a5c4ce1976dca24809970cc" name="Nodos Fisicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-527f28f30a5c4ce1976dca24809970cc" name="Nodos Fisicos" targetConnections="id-b6ff1ed3beba4602a2350173a6c07c62" textAlignment="1">
             <bounds x="416" y="212" width="281" height="209"/>
             <child xsi:type="archimate:DiagramObject" id="id-0f04a9e17fdc4c3ba2c6c3a531692c83" fillColor="#c8c8e3" archimateElement="id-59d93cbb7a474cd8a311590ef52c9898">
               <bounds x="144" y="36" width="120" height="55"/>
@@ -1694,21 +1684,25 @@ sistemas de información</content>
 sistemas de información</content>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-2bd40f148a5446e98afee0ede205f93d" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-2bd40f148a5446e98afee0ede205f93d" name="Nodos Virtuales" targetConnections="id-0650d7c1784e44feae526ff80bfad73e" textAlignment="1">
             <bounds x="240" y="212" width="159" height="209"/>
             <child xsi:type="archimate:DiagramObject" id="id-8489ce40904e44b0aff182896f244fc4" archimateElement="id-7dc8fff206d14881927628461f2ff81c">
               <bounds x="12" y="84" width="132" height="55"/>
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2390b4008c434ff19da6570548482c13" archimateElement="id-922e428b2b5343e1a537f566ec3deea9">
-            <bounds x="240" y="144" width="457" height="55"/>
+            <bounds x="240" y="132" width="457" height="55"/>
+            <sourceConnection id="id-b6ff1ed3beba4602a2350173a6c07c62" source="id-2390b4008c434ff19da6570548482c13" target="id-527f28f30a5c4ce1976dca24809970cc"/>
+            <sourceConnection id="id-0650d7c1784e44feae526ff80bfad73e" source="id-2390b4008c434ff19da6570548482c13" target="id-2bd40f148a5446e98afee0ede205f93d"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="PORTAL-Nodos" id="id-fa743a3d84d84b6384d1253083954d0b">
           <child xsi:type="archimate:DiagramObject" id="id-6b3c4b9436ac4aa79b97a0401ff76cfd" archimateElement="id-acea0f6e576448689e093174f53af5e0">
-            <bounds x="396" y="120" width="361" height="55"/>
+            <bounds x="396" y="108" width="361" height="55"/>
+            <sourceConnection id="id-c2165eaee9234c7ba026df082b61ae0d" source="id-6b3c4b9436ac4aa79b97a0401ff76cfd" target="id-cdede37a16164d4c8fc9a9b6d36157d2"/>
+            <sourceConnection id="id-a02b1dabea484081bdf1c2f80c82efe2" source="id-6b3c4b9436ac4aa79b97a0401ff76cfd" target="id-ed32fcc3e7c842c19f1e217455d9ec09"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-cdede37a16164d4c8fc9a9b6d36157d2" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-cdede37a16164d4c8fc9a9b6d36157d2" name="Nodos Virtuales" targetConnections="id-c2165eaee9234c7ba026df082b61ae0d" textAlignment="1">
             <bounds x="396" y="192" width="193" height="253"/>
             <child xsi:type="archimate:DiagramObject" id="id-33c90d05f8384e8a94c4c62a874e6ca1" archimateElement="id-1ff9673ca1744d319ab4cc8332358630">
               <bounds x="12" y="48" width="143" height="55"/>
@@ -1717,7 +1711,7 @@ sistemas de información</content>
               <bounds x="12" y="120" width="174" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-ed32fcc3e7c842c19f1e217455d9ec09" name="Nodos Físicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-ed32fcc3e7c842c19f1e217455d9ec09" name="Nodos Físicos" targetConnections="id-a02b1dabea484081bdf1c2f80c82efe2" textAlignment="1">
             <bounds x="612" y="192" width="145" height="193"/>
             <child xsi:type="archimate:DiagramObject" id="id-c10db415198e4c11828c16e51d9054a4" fillColor="#c8c8e3" archimateElement="id-59d93cbb7a474cd8a311590ef52c9898">
               <bounds x="12" y="48" width="120" height="55"/>
@@ -1735,8 +1729,10 @@ sistemas de información</content>
         <element xsi:type="archimate:ArchimateDiagramModel" name="SIGER-Nodos" id="id-85b1502beea04ea3aabb6545ca40884e">
           <child xsi:type="archimate:DiagramObject" id="id-ff3ca17b877240288271695512dadc58" archimateElement="id-18066e2cd32d4fd6a84a664a3c2eea63">
             <bounds x="264" y="84" width="481" height="55"/>
+            <sourceConnection id="id-8ab7d1c28b6e44b2b8f56e244a62bccb" source="id-ff3ca17b877240288271695512dadc58" target="id-c9dcd8e5dbad433b956e2c8230667d8f"/>
+            <sourceConnection id="id-e2f6b8ba68a246199b422f746a64428d" source="id-ff3ca17b877240288271695512dadc58" target="id-d1768c1c67ef471fa4a83418a378a051"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-c9dcd8e5dbad433b956e2c8230667d8f" name="Nodos virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-c9dcd8e5dbad433b956e2c8230667d8f" name="Nodos virtuales" targetConnections="id-8ab7d1c28b6e44b2b8f56e244a62bccb" textAlignment="1">
             <bounds x="276" y="168" width="301" height="277"/>
             <child xsi:type="archimate:DiagramObject" id="id-289b3c8d5d60464495a773f8a4ffcc3b" archimateElement="id-371f529157a24bf19ef37a07c9279d4e">
               <bounds x="12" y="48" width="120" height="55"/>
@@ -1754,7 +1750,7 @@ sistemas de información</content>
               <bounds x="84" y="204" width="120" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-d1768c1c67ef471fa4a83418a378a051" name="Nodos Fisicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-d1768c1c67ef471fa4a83418a378a051" name="Nodos Fisicos" targetConnections="id-e2f6b8ba68a246199b422f746a64428d" textAlignment="1">
             <bounds x="600" y="168" width="145" height="277"/>
             <child xsi:type="archimate:DiagramObject" id="id-e1d6b2950b984f4da0dd62f7123fc496" fillColor="#c8c8e3" archimateElement="id-e5bf72e72a1e488381c3626f312e8cfc">
               <bounds x="12" y="48" width="120" height="55"/>
@@ -1772,8 +1768,10 @@ sistemas de información</content>
         <element xsi:type="archimate:ArchimateDiagramModel" name="SIMON-Nodos" id="id-11f5094fa7e9468e9bfa77755cca90f1">
           <child xsi:type="archimate:DiagramObject" id="id-b34a9a5aa5be4c3dbb2ae20d227a080b" archimateElement="id-95bc5dee923a468eb0bb0e745588f3a4">
             <bounds x="108" y="96" width="697" height="55"/>
+            <sourceConnection id="id-ed0b6482aaf445c39bd3e1921d975f1e" source="id-b34a9a5aa5be4c3dbb2ae20d227a080b" target="id-885cb0b538fa484db35375ef684b5c7e"/>
+            <sourceConnection id="id-a775f0e2bfba40b79098550e7e15c715" source="id-b34a9a5aa5be4c3dbb2ae20d227a080b" target="id-8b3975791d2d488cb887766feeafbabc"/>
           </child>
-          <child xsi:type="archimate:Group" id="id-885cb0b538fa484db35375ef684b5c7e" name="Nodos Virtuales" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-885cb0b538fa484db35375ef684b5c7e" name="Nodos Virtuales" targetConnections="id-ed0b6482aaf445c39bd3e1921d975f1e" textAlignment="1">
             <bounds x="108" y="180" width="373" height="313"/>
             <child xsi:type="archimate:DiagramObject" id="id-2885cf487fa24087896c9a0eb9a14a22" archimateElement="id-83985ba1030b43c69f6aaa82832c1e95">
               <bounds x="12" y="36" width="156" height="55"/>
@@ -1797,7 +1795,7 @@ sistemas de información</content>
               <bounds x="204" y="180" width="132" height="55"/>
             </child>
           </child>
-          <child xsi:type="archimate:Group" id="id-8b3975791d2d488cb887766feeafbabc" name="Nodos Fisicos" textAlignment="1">
+          <child xsi:type="archimate:Group" id="id-8b3975791d2d488cb887766feeafbabc" name="Nodos Fisicos" targetConnections="id-a775f0e2bfba40b79098550e7e15c715" textAlignment="1">
             <bounds x="504" y="180" width="301" height="313"/>
             <child xsi:type="archimate:DiagramObject" id="id-d13d6192c6c747b9b01eff984a3ef4b9" archimateElement="id-f7ca165f60e649038eb9a39505ebd9d8">
               <bounds x="12" y="36" width="120" height="55"/>
@@ -1903,9 +1901,6 @@ sistemas de información</content>
             </child>
             <child xsi:type="archimate:Group" id="id-db51a6b849204c5f9652263ad37453de" name="Legacy" textAlignment="1">
               <bounds x="324" y="24" width="169" height="109"/>
-              <child xsi:type="archimate:DiagramObject" id="id-30fce908eb044062b66cb910460f49cd" archimateElement="id-f834c5ce7b224857902c645f3d5b242b">
-                <bounds x="24" y="36" width="120" height="55"/>
-              </child>
             </child>
             <child xsi:type="archimate:Group" id="id-1ac05f41553147989499fcf4084df878" name="En desarrollo" textAlignment="1">
               <bounds x="504" y="24" width="328" height="109"/>
