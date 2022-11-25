@@ -903,6 +903,7 @@
     <element xsi:type="archimate:AssociationRelationship" id="id-aa3089bb58b04a7a84265a58e9436943" source="id-fcf7457b2c254c388dacc6118bcd2691" target="id-8f8ad9cb1d83409ca30477fee45bf433"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e103d43290cd4a12ac4323b2c4d02eaf" source="id-7c6728d763ac435394d04271a0962dc8" target="id-8f8ad9cb1d83409ca30477fee45bf433"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8380b2e3ca8c4656a4139d7078031ec4" source="id-7c6728d763ac435394d04271a0962dc8" target="id-fcf7457b2c254c388dacc6118bcd2691"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-9986521a822346e59e950bb16b935159" source="id-9fbb11fb63774e559e753542d058bd2b" target="id-95bc5dee923a468eb0bb0e745588f3a4"/>
   </folder>
   <folder name="Views" id="id-628304712aee4e999aa8dd2aa2c699b7" type="diagrams">
     <folder name="Metamodelo AE" id="id-a2f5818164894109b399dd39bd167f14">
@@ -1991,6 +1992,29 @@ sistemas de información</content>
         </folder>
         <folder name="Arquitecturas de referencia" id="id-3651a8a9e4174850a22fb6164ef48783">
           <documentation>La SSF no cuenta con arquitecturas de referencia que permita guiar el planteamiento de soluciones de sistemas de información.</documentation>
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Arquitectura de referencia general" id="id-a6e8fc1fb7dc4fc9ba4e605d1e0a0811">
+            <child xsi:type="archimate:Group" id="id-eb4291f539b14ed39643c78d5ea8ff4e" name="Zona de canales" textAlignment="1">
+              <bounds x="288" y="96" width="577" height="140"/>
+            </child>
+            <child xsi:type="archimate:Group" id="id-2956bca0b2b34ab6b01f73802824211c" name="Zona de transaccional" textAlignment="1">
+              <bounds x="288" y="252" width="577" height="140"/>
+            </child>
+            <child xsi:type="archimate:Group" id="id-6c38a1f655a645129e4be8798779b048" name="Zona de almacenamiento" textAlignment="1">
+              <bounds x="288" y="408" width="577" height="140"/>
+            </child>
+            <child xsi:type="archimate:Group" id="id-28296bae05d94e39aeced5d97c112dc7" name="Zona de interoperabilidad con externos" textAlignment="1">
+              <bounds x="876" y="96" width="253" height="229"/>
+            </child>
+            <child xsi:type="archimate:Group" id="id-ff577602b05642bba7e50b58f563485f" name="Zona de seguridad" textAlignment="1">
+              <bounds x="24" y="96" width="253" height="217"/>
+            </child>
+            <child xsi:type="archimate:Group" id="id-88005a4dbcda4fc7835dcc78a2f533d1" name="Zona de notificaciones" textAlignment="1">
+              <bounds x="876" y="336" width="253" height="212"/>
+            </child>
+            <child xsi:type="archimate:Group" id="id-93c93bf0e2a14920817ff2cc113dda0f" name="Zona transversal" textAlignment="1">
+              <bounds x="24" y="324" width="253" height="224"/>
+            </child>
+          </element>
         </folder>
         <folder name="Arquitecturas de solución" id="id-aee599a8fff74e70b4cb7b07a9a9474e"/>
         <folder name="Arquitecturas de software" id="id-37baecf668d846838543eb67cc145c89">
@@ -2620,6 +2644,56 @@ sistemas de información</content>
             </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Sistemas de información - Entidades de Información" id="id-202f909b0b3b4f95be35b8ab31749a17"/>
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Vista de interoperabilidad" id="id-d8b6dc589c1d4f9891c986fca094c243">
+            <child xsi:type="archimate:Group" id="id-f28d82c15eaf4de79eec006b7f0d7366" name="DNP" textAlignment="1">
+              <bounds x="60" y="72" width="295" height="114"/>
+              <sourceConnection id="id-4fbfce239835433f9140ae69be0209b6" source="id-f28d82c15eaf4de79eec006b7f0d7366" target="id-fd08c17fe85a42dfb32f251cb943f010"/>
+              <child xsi:type="archimate:DiagramObject" id="id-48744f7349ae4276b86a380974b3c6cd" archimateElement="id-25fc4076173148b0bee2f64be00896f9">
+                <bounds x="12" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-16aebdfdf4e94f1ca06c4a3441523faa" archimateElement="id-eb9c04f249864fdaaea94db03f1ff72a">
+                <bounds x="156" y="36" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-007d2999daec4e1a873e221b76b4c2c0" name="SSF" textAlignment="1">
+              <bounds x="576" y="72" width="301" height="114"/>
+              <sourceConnection id="id-21dd2f5fe3be4612a6fa64ceaf009802" source="id-007d2999daec4e1a873e221b76b4c2c0" target="id-fd08c17fe85a42dfb32f251cb943f010"/>
+              <child xsi:type="archimate:DiagramObject" id="id-6af94da1749e40539f75ec88035f5777" archimateElement="id-bbefc0168fde4c2f952d0d53a7e41c49">
+                <bounds x="12" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-408e42a6f109493f8eac2123c50616ae" archimateElement="id-7f1d38f79b824ae1bea37cc4cf7c717d">
+                <bounds x="156" y="36" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Note" id="id-fd08c17fe85a42dfb32f251cb943f010" targetConnections="id-4fbfce239835433f9140ae69be0209b6 id-21dd2f5fe3be4612a6fa64ceaf009802" textAlignment="1">
+              <bounds x="396" y="96" width="124" height="73"/>
+              <content>Intercambio de archivos manualmente (email)</content>
+            </child>
+            <child xsi:type="archimate:Group" id="id-1aa9c618f67f4205a90a36e867bb5891" name="SSF" textAlignment="1">
+              <bounds x="576" y="252" width="301" height="140"/>
+              <sourceConnection id="id-e7cc4876873645a58ee187fc32116241" source="id-1aa9c618f67f4205a90a36e867bb5891" target="id-3526a0d169ec45c292a8475ef333ecc2"/>
+              <child xsi:type="archimate:DiagramObject" id="id-07cb29dbb1f14430973eb9d16e6b4f38" archimateElement="id-9fbb11fb63774e559e753542d058bd2b">
+                <bounds x="168" y="48" width="120" height="55"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-6f6e9ecf827e4aa7afeb1dcc3c742db5" source="id-07cb29dbb1f14430973eb9d16e6b4f38" target="id-d1cc4540e31448b8bb42dcd0201458d3" archimateRelationship="id-9986521a822346e59e950bb16b935159"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-d1cc4540e31448b8bb42dcd0201458d3" targetConnections="id-6f6e9ecf827e4aa7afeb1dcc3c742db5" archimateElement="id-95bc5dee923a468eb0bb0e745588f3a4">
+                <bounds x="12" y="48" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-f336265765ed4206b0252e0c809cf848" name="CCF" textAlignment="1">
+              <bounds x="60" y="252" width="295" height="140"/>
+              <sourceConnection id="id-6654743d0d88494681659b970b11f3cc" source="id-f336265765ed4206b0252e0c809cf848" target="id-3526a0d169ec45c292a8475ef333ecc2"/>
+              <child xsi:type="archimate:Note" id="id-c6d7056aed814fccbf286bf8e9afc784" textAlignment="1">
+                <bounds x="48" y="48" width="185" height="61"/>
+                <content>Sistemas de información de las CCF generan los archivos a intercambiar</content>
+              </child>
+            </child>
+            <child xsi:type="archimate:Note" id="id-3526a0d169ec45c292a8475ef333ecc2" targetConnections="id-6654743d0d88494681659b970b11f3cc id-e7cc4876873645a58ee187fc32116241" textAlignment="1">
+              <bounds x="384" y="288" width="157" height="73"/>
+              <content>Intercambio de archivos cargados manualmente por interfaz gráfica de usuarios</content>
+            </child>
+          </element>
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Vista de integraciones" id="id-642e42202b34463f8fd8788a90230447"/>
         </folder>
       </folder>
       <folder name="Dominio de arquitectura misional" id="id-47e674db60ee4407a99ca8313701009c">
