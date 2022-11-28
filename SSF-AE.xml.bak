@@ -347,9 +347,7 @@
         <element xsi:type="archimate:ApplicationCollaboration" name="Atención y solución de PQRSF" id="id-ef3369a74395465793d16803435b4f9f"/>
         <element xsi:type="archimate:ApplicationCollaboration" name="Monitoreo y seguimiento de cajas de compensación familiar" id="id-481b4499417d45adac19efa5f146d6c8"/>
       </folder>
-      <folder name="Legacy" id="id-0f05d0be59ff40cdaa0467879239973a">
-        <element xsi:type="archimate:ApplicationComponent" name="APP-SSF" id="id-f834c5ce7b224857902c645f3d5b242b"/>
-      </folder>
+      <folder name="Legacy" id="id-0f05d0be59ff40cdaa0467879239973a"/>
       <folder name="Otros" id="id-dcbe3ef7914544779c30692081f5ff80">
         <element xsi:type="archimate:ApplicationComponent" name="Procesos ETL" id="id-b11bb14749dc434bb4e3313b4f2eb540"/>
         <element xsi:type="archimate:ApplicationComponent" name="Reporte Cajas de Compensación (XML)" id="id-457a4b70da174b48afa7ed013c18210e"/>
@@ -903,6 +901,7 @@
     <element xsi:type="archimate:AssociationRelationship" id="id-aa3089bb58b04a7a84265a58e9436943" source="id-fcf7457b2c254c388dacc6118bcd2691" target="id-8f8ad9cb1d83409ca30477fee45bf433"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-e103d43290cd4a12ac4323b2c4d02eaf" source="id-7c6728d763ac435394d04271a0962dc8" target="id-8f8ad9cb1d83409ca30477fee45bf433"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-8380b2e3ca8c4656a4139d7078031ec4" source="id-7c6728d763ac435394d04271a0962dc8" target="id-fcf7457b2c254c388dacc6118bcd2691"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-9986521a822346e59e950bb16b935159" source="id-9fbb11fb63774e559e753542d058bd2b" target="id-95bc5dee923a468eb0bb0e745588f3a4"/>
   </folder>
   <folder name="Views" id="id-628304712aee4e999aa8dd2aa2c699b7" type="diagrams">
     <folder name="Metamodelo AE" id="id-a2f5818164894109b399dd39bd167f14">
@@ -1082,9 +1081,6 @@
         <child xsi:type="archimate:Note" id="id-b6be989882734e01942d1611d097216d" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
           <bounds x="24" y="12" width="1021" height="80"/>
           <content>Dominio de arquitectura de infraestructura tecnológica</content>
-        </child>
-        <child xsi:type="archimate:DiagramModelReference" id="id-61bb08227ed6416894e9b9e0cbba6a51" model="id-b3bf7de4bda643afa69fa1a831508ab5">
-          <bounds x="201" y="191" width="120" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de seguridad" id="id-e5218d222e154b69aa29337af49d2e4b">
@@ -1570,22 +1566,6 @@
         </element>
       </folder>
       <folder name="Dominio de arquitectura de infraestructura tecnológica" id="id-0838053e747546f9861d6133addb8393">
-        <element xsi:type="archimate:ArchimateDiagramModel" name="APPSFF-Nodos" id="id-b3bf7de4bda643afa69fa1a831508ab5">
-          <child xsi:type="archimate:Group" id="id-64666d0245a74122ae23419b5aec4f47" name="Nodos Virtuales" targetConnections="id-553adf172f1b4529974a7bb3e47039cf" textAlignment="1">
-            <bounds x="468" y="168" width="145" height="217"/>
-            <child xsi:type="archimate:DiagramObject" id="id-ca383be8ab604811b361f0034bfb6bd7" fillColor="#c8c8e3" archimateElement="id-c67ceba9a412407c8a7dd71d4d5f6997">
-              <bounds x="13" y="144" width="120" height="55"/>
-            </child>
-            <child xsi:type="archimate:Note" id="id-c457fc6d1d01443e99185a8d7a75780c" textAlignment="1">
-              <bounds y="48" width="145" height="61"/>
-              <content>Compartido con otros sistemas de información</content>
-            </child>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-3e1e531aa5084fed85a1c8ae935e04ad" archimateElement="id-f834c5ce7b224857902c645f3d5b242b">
-            <bounds x="468" y="84" width="145" height="55"/>
-            <sourceConnection id="id-553adf172f1b4529974a7bb3e47039cf" source="id-3e1e531aa5084fed85a1c8ae935e04ad" target="id-64666d0245a74122ae23419b5aec4f47"/>
-          </child>
-        </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="CHAT-Nodos" id="id-232a7e98ee094d96abb2355ca20a9e0b">
           <child xsi:type="archimate:DiagramObject" id="id-ff03d1a9b8f544049d50493ee18cf78d" archimateElement="id-652267d4d6e14caba0550207b2553690">
             <bounds x="413" y="125" width="120" height="55"/>
@@ -1993,9 +1973,6 @@ sistemas de información</content>
             </child>
             <child xsi:type="archimate:Group" id="id-db51a6b849204c5f9652263ad37453de" name="Legacy" textAlignment="1">
               <bounds x="324" y="24" width="169" height="109"/>
-              <child xsi:type="archimate:DiagramObject" id="id-30fce908eb044062b66cb910460f49cd" archimateElement="id-f834c5ce7b224857902c645f3d5b242b">
-                <bounds x="24" y="36" width="120" height="55"/>
-              </child>
             </child>
             <child xsi:type="archimate:Group" id="id-1ac05f41553147989499fcf4084df878" name="En desarrollo" textAlignment="1">
               <bounds x="504" y="24" width="328" height="109"/>
@@ -2662,6 +2639,56 @@ sistemas de información</content>
             </child>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Sistemas de información - Entidades de Información" id="id-202f909b0b3b4f95be35b8ab31749a17"/>
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Vista de interoperabilidad" id="id-d8b6dc589c1d4f9891c986fca094c243">
+            <child xsi:type="archimate:Group" id="id-f28d82c15eaf4de79eec006b7f0d7366" name="DNP" textAlignment="1">
+              <bounds x="60" y="72" width="295" height="114"/>
+              <sourceConnection id="id-4fbfce239835433f9140ae69be0209b6" source="id-f28d82c15eaf4de79eec006b7f0d7366" target="id-fd08c17fe85a42dfb32f251cb943f010"/>
+              <child xsi:type="archimate:DiagramObject" id="id-48744f7349ae4276b86a380974b3c6cd" archimateElement="id-25fc4076173148b0bee2f64be00896f9">
+                <bounds x="12" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-16aebdfdf4e94f1ca06c4a3441523faa" archimateElement="id-eb9c04f249864fdaaea94db03f1ff72a">
+                <bounds x="156" y="36" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-007d2999daec4e1a873e221b76b4c2c0" name="SSF" textAlignment="1">
+              <bounds x="576" y="72" width="301" height="114"/>
+              <sourceConnection id="id-21dd2f5fe3be4612a6fa64ceaf009802" source="id-007d2999daec4e1a873e221b76b4c2c0" target="id-fd08c17fe85a42dfb32f251cb943f010"/>
+              <child xsi:type="archimate:DiagramObject" id="id-6af94da1749e40539f75ec88035f5777" archimateElement="id-bbefc0168fde4c2f952d0d53a7e41c49">
+                <bounds x="12" y="36" width="120" height="55"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-408e42a6f109493f8eac2123c50616ae" archimateElement="id-7f1d38f79b824ae1bea37cc4cf7c717d">
+                <bounds x="156" y="36" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Note" id="id-fd08c17fe85a42dfb32f251cb943f010" targetConnections="id-4fbfce239835433f9140ae69be0209b6 id-21dd2f5fe3be4612a6fa64ceaf009802" textAlignment="1">
+              <bounds x="396" y="96" width="124" height="73"/>
+              <content>Intercambio de archivos manualmente (email)</content>
+            </child>
+            <child xsi:type="archimate:Group" id="id-1aa9c618f67f4205a90a36e867bb5891" name="SSF" textAlignment="1">
+              <bounds x="576" y="252" width="301" height="140"/>
+              <sourceConnection id="id-e7cc4876873645a58ee187fc32116241" source="id-1aa9c618f67f4205a90a36e867bb5891" target="id-3526a0d169ec45c292a8475ef333ecc2"/>
+              <child xsi:type="archimate:DiagramObject" id="id-07cb29dbb1f14430973eb9d16e6b4f38" archimateElement="id-9fbb11fb63774e559e753542d058bd2b">
+                <bounds x="168" y="48" width="120" height="55"/>
+                <sourceConnection xsi:type="archimate:Connection" id="id-6f6e9ecf827e4aa7afeb1dcc3c742db5" source="id-07cb29dbb1f14430973eb9d16e6b4f38" target="id-d1cc4540e31448b8bb42dcd0201458d3" archimateRelationship="id-9986521a822346e59e950bb16b935159"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-d1cc4540e31448b8bb42dcd0201458d3" targetConnections="id-6f6e9ecf827e4aa7afeb1dcc3c742db5" archimateElement="id-95bc5dee923a468eb0bb0e745588f3a4">
+                <bounds x="12" y="48" width="120" height="55"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:Group" id="id-f336265765ed4206b0252e0c809cf848" name="CCF" textAlignment="1">
+              <bounds x="60" y="252" width="295" height="140"/>
+              <sourceConnection id="id-6654743d0d88494681659b970b11f3cc" source="id-f336265765ed4206b0252e0c809cf848" target="id-3526a0d169ec45c292a8475ef333ecc2"/>
+              <child xsi:type="archimate:Note" id="id-c6d7056aed814fccbf286bf8e9afc784" textAlignment="1">
+                <bounds x="48" y="48" width="185" height="61"/>
+                <content>Sistemas de información de las CCF generan los archivos a intercambiar</content>
+              </child>
+            </child>
+            <child xsi:type="archimate:Note" id="id-3526a0d169ec45c292a8475ef333ecc2" targetConnections="id-6654743d0d88494681659b970b11f3cc id-e7cc4876873645a58ee187fc32116241" textAlignment="1">
+              <bounds x="384" y="288" width="157" height="73"/>
+              <content>Intercambio de archivos cargados manualmente por interfaz gráfica de usuarios</content>
+            </child>
+          </element>
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Vista de integraciones" id="id-642e42202b34463f8fd8788a90230447"/>
         </folder>
       </folder>
       <folder name="Dominio de arquitectura misional" id="id-47e674db60ee4407a99ca8313701009c">

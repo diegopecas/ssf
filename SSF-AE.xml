@@ -2688,7 +2688,54 @@ sistemas de información</content>
               <content>Intercambio de archivos cargados manualmente por interfaz gráfica de usuarios</content>
             </child>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Vista de integraciones" id="id-642e42202b34463f8fd8788a90230447"/>
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Vista de integraciones" id="id-642e42202b34463f8fd8788a90230447">
+            <child xsi:type="archimate:DiagramObject" id="id-aa650cb2bd9d40deb4b0112d6806105b" archimateElement="id-95bc5dee923a468eb0bb0e745588f3a4">
+              <bounds x="48" y="36" width="120" height="55"/>
+              <sourceConnection id="id-2c64ff3ca6b245adbf521fb90fb45ec5" source="id-aa650cb2bd9d40deb4b0112d6806105b" target="id-cef80031e98a4319b60a77e362871262"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-37f0dc9c4c23485787274cc03cfbd91d" archimateElement="id-18066e2cd32d4fd6a84a664a3c2eea63">
+              <bounds x="360" y="36" width="120" height="55"/>
+              <sourceConnection id="id-52ac1c8825334f06a7530077d9cdbc67" source="id-37f0dc9c4c23485787274cc03cfbd91d" target="id-cef80031e98a4319b60a77e362871262"/>
+              <sourceConnection id="id-3fc4594b9ce74e04aea5b7949ac51886" source="id-37f0dc9c4c23485787274cc03cfbd91d" target="id-2c45dca96fef47b5bfbe13823f7c196c"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-413277e99fd242efb0fe7ad9b8762293" archimateElement="id-be40dd843c2843b4af56c597cbd6be04">
+              <bounds x="696" y="36" width="120" height="55"/>
+              <sourceConnection id="id-d237ca110b4e4fd4b4b2a3ebbcc06ffd" source="id-413277e99fd242efb0fe7ad9b8762293" target="id-2c45dca96fef47b5bfbe13823f7c196c"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-5b539abbc3664844b4108c03adaef6f8" archimateElement="id-652267d4d6e14caba0550207b2553690">
+              <bounds x="48" y="252" width="120" height="55"/>
+              <sourceConnection id="id-aa72d5074fcc491cb2ef1a782f9a3d9f" source="id-5b539abbc3664844b4108c03adaef6f8" target="id-c7b37d0034584047905a56d3a07807ab"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-b5fd82d6712c4377ba29a3ea2fe76685" archimateElement="id-a53e3fd25430476f97b045bde2b4aa14">
+              <bounds x="48" y="323" width="120" height="55"/>
+              <sourceConnection id="id-9ad00dffac3846c9a34365fddd517d0f" source="id-b5fd82d6712c4377ba29a3ea2fe76685" target="id-c7b37d0034584047905a56d3a07807ab"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-c48b00c2f0ce4bdca16e937c590e2f1a" archimateElement="id-d4e74009314b476f86c8a6e8be3702e7">
+              <bounds x="384" y="288" width="120" height="55"/>
+              <sourceConnection id="id-dde5e1516d044667a61c368b8bc94c8a" source="id-c48b00c2f0ce4bdca16e937c590e2f1a" target="id-c7b37d0034584047905a56d3a07807ab"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-9ce7c3aa033f4e7b81d058ff1b2298e8" archimateElement="id-affa549e08294e7e8efccaa4e51234d7">
+              <bounds x="696" y="108" width="120" height="55"/>
+              <sourceConnection id="id-9321c8fe9d4b46888d02c077ca72bf24" source="id-9ce7c3aa033f4e7b81d058ff1b2298e8" target="id-2c45dca96fef47b5bfbe13823f7c196c"/>
+            </child>
+            <child xsi:type="archimate:Note" id="id-cef80031e98a4319b60a77e362871262" targetConnections="id-2c64ff3ca6b245adbf521fb90fb45ec5 id-52ac1c8825334f06a7530077d9cdbc67 id-2ef8a13d4a8b4706aef14cb0fdf92250" textAlignment="1">
+              <bounds x="200" y="43" width="125" height="42"/>
+              <content>Intercambio manual de archivos</content>
+            </child>
+            <child xsi:type="archimate:Note" id="id-2c45dca96fef47b5bfbe13823f7c196c" targetConnections="id-3fc4594b9ce74e04aea5b7949ac51886 id-d237ca110b4e4fd4b4b2a3ebbcc06ffd id-9321c8fe9d4b46888d02c077ca72bf24 id-b044ef76bb384079b888454a4a065c63" textAlignment="1">
+              <bounds x="528" y="43" width="125" height="42"/>
+              <content>Intercambio manual de archivos</content>
+            </child>
+            <child xsi:type="archimate:Note" id="id-c7b37d0034584047905a56d3a07807ab" targetConnections="id-9ad00dffac3846c9a34365fddd517d0f id-aa72d5074fcc491cb2ef1a782f9a3d9f id-dde5e1516d044667a61c368b8bc94c8a" textAlignment="1">
+              <bounds x="200" y="290" width="155" height="51"/>
+              <content>Redireccionamiento para radicación de PQRSF</content>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-4b990796563f46878e7264260eb2fd2e" archimateElement="id-7f1d38f79b824ae1bea37cc4cf7c717d">
+              <bounds x="360" y="120" width="120" height="55"/>
+              <sourceConnection id="id-b044ef76bb384079b888454a4a065c63" source="id-4b990796563f46878e7264260eb2fd2e" target="id-2c45dca96fef47b5bfbe13823f7c196c"/>
+              <sourceConnection id="id-2ef8a13d4a8b4706aef14cb0fdf92250" source="id-4b990796563f46878e7264260eb2fd2e" target="id-cef80031e98a4319b60a77e362871262"/>
+            </child>
+          </element>
         </folder>
       </folder>
       <folder name="Dominio de arquitectura misional" id="id-47e674db60ee4407a99ca8313701009c">
