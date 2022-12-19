@@ -2297,7 +2297,7 @@ sistemas de información</content>
           </folder>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Sistemas de información - funcionalidades" id="id-fa3b561a6bd6420cab30d161ac49b051">
             <child xsi:type="archimate:DiagramObject" id="id-7efc723efd03465dbbad2f241f825d11" textAlignment="1" archimateElement="id-4f1c57f7f3a14208b17590095fb0379a">
-              <bounds x="24" y="24" width="433" height="649"/>
+              <bounds x="12" y="24" width="433" height="649"/>
               <child xsi:type="archimate:Group" id="id-8703cf4a1d2d4b9598ddee47cbf18176" name="SI SIMON" textAlignment="1">
                 <bounds x="12" y="48" width="400" height="140"/>
                 <child xsi:type="archimate:DiagramObject" id="id-f9d79b29488241ac8344ed0c784aa051" archimateElement="id-95bc5dee923a468eb0bb0e745588f3a4">
