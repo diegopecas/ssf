@@ -1221,6 +1221,7 @@
           <content>Dominio de uso y apropiación de la arquitectura</content>
         </child>
       </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Simbolos" id="id-4619e059221649aba04acee7b9ece2b6"/>
     </folder>
     <folder name="AS-IS" id="id-dcc5c80a82d04f74a150348fbabeae6d">
       <folder name="Dominio de arquitectura de Información" id="id-a26d02e1d1b342dfb0030083f7b51db9">
