@@ -15,7 +15,7 @@
       <element xsi:type="archimate:Capability" name="C1.1 Divulgar los servicios de la SSF" id="id-a2d681bafd694cc1a9ea5ca1aba71f2a"/>
       <element xsi:type="archimate:Capability" name="C1.10 Orientar a los grupos de interés sobre sus derechos y deberes" id="id-370ee03ec22940eb9eab74c49e25b140"/>
       <element xsi:type="archimate:Capability" name="C1.11 Impartir directrices a las oficinas de atención al usuario de las Cajas de Compensación Familiar para la gestión de PQRSF" id="id-955e6b9208024cccabda6ee1687b7d4f"/>
-      <element xsi:type="archimate:Capability" name="C1.12 Generar estrategias de cualificación y actualización" id="id-da4254a2c55743e8a545a06def0ca9e9"/>
+      <element xsi:type="archimate:Capability" name="C1.12 Generar estrategias de cualificación y actualización para los equipos de trabajo" id="id-da4254a2c55743e8a545a06def0ca9e9"/>
       <element xsi:type="archimate:Capability" name="C1.13 Gestionar proyectos" id="id-15f607d70e164ef6bbd2c8f1ca500ae2"/>
       <element xsi:type="archimate:Capability" name="C1.14 Elaborar informes de requerimientos de información" id="id-14bebe0b0c2346adb7c2b3738a556e62"/>
       <element xsi:type="archimate:Capability" name="C1.2 Recibir los derechos de petición" id="id-4ff859ea181844bab532860784710b87"/>
@@ -29,12 +29,12 @@
       <element xsi:type="archimate:Capability" name="C2 Evaluar la gestión de las CCF" id="id-2c47afe87f4c48bd8cbe76a58873b5a5"/>
       <element xsi:type="archimate:Capability" name="C2.1 Recolectar evidencias e información de las CCF" id="id-c26f937795ea4971b410e18cb33bd8e6"/>
       <element xsi:type="archimate:Capability" name="C2.2 Analizar y evaluar la información de las CCF" id="id-c76158f0bc854d718253114ea289e9b3"/>
-      <element xsi:type="archimate:Capability" name="C2.3 Realizar recomendaciones" id="id-f17c518510c34a2d94b0a08c36ed4d9f"/>
-      <element xsi:type="archimate:Capability" name="C2.4 Informar respecto de las variaciones, inconsistencias y comportamiento" id="id-78f52ec9e39d4e9081b99b0316e836ca"/>
+      <element xsi:type="archimate:Capability" name="C2.3 Realizar recomendaciones a las CCF" id="id-f17c518510c34a2d94b0a08c36ed4d9f"/>
+      <element xsi:type="archimate:Capability" name="C2.4 Informar respecto de las variaciones, inconsistencias y comportamiento de las CCF" id="id-78f52ec9e39d4e9081b99b0316e836ca"/>
       <element xsi:type="archimate:Capability" name="C2.5 Emitir oficios de apoyo a la gestión de cobro" id="id-a6e8622f5ae046aa82754bb5ebde0c96"/>
       <element xsi:type="archimate:Capability" name="C2.6 Realizar seguimiento a las metas" id="id-a51c32798fda4adf9734f5fe122ec9bf"/>
       <element xsi:type="archimate:Capability" name="C2.7 Atender auditorías externas e internas" id="id-ea1fb2f60453431ebf86f6191bf82e5f"/>
-      <element xsi:type="archimate:Capability" name="C2.8&#x9;Definir e implementar acciones de mejora del proceso" id="id-7511ee59f41e4e589343f8a7948bb252"/>
+      <element xsi:type="archimate:Capability" name="C2.8 Definir e implementar acciones de mejora del proceso" id="id-7511ee59f41e4e589343f8a7948bb252"/>
       <element xsi:type="archimate:Capability" name="C3 Gestionar la planeación institucional" id="id-fbf5beaa1545403cb059946ea8db9406"/>
       <element xsi:type="archimate:Capability" name="C3.1 Generar lineamientos para la formulación de planes, programas y proyectos" id="id-e7db307311844e3d9b1e41f031118b22"/>
       <element xsi:type="archimate:Capability" name="C3.13 Realizar el seguimiento a los planes, programas y proyectos " id="id-5f3eed09600d4dff8ed4d1ce0c84bfd6"/>
@@ -198,10 +198,10 @@
       <element xsi:type="archimate:BusinessService" name="Análisis sobre información de fondos" id="id-edefa23721e749f7a0ed812dd89193d2"/>
       <element xsi:type="archimate:BusinessService" name="Apoyo en proyectos" id="id-73237f5de04b4d62be499807083fa9ff"/>
       <element xsi:type="archimate:BusinessService" name="Asesoría y acompañamiento en la formulación de los planes, programas y proyectos" id="id-a6088def3eb94b0ea30268fe7f7ff6e7"/>
-      <element xsi:type="archimate:BusinessService" name="Asesoría y acompañamiento en la implementación del Sistema integrado de gestión" id="id-a0928bd2ed1d4415bb865fe9168cb5d8"/>
+      <element xsi:type="archimate:BusinessService" name="Asesoría y acompañamiento en la implementación del Sistema de gestión de calidad" id="id-a0928bd2ed1d4415bb865fe9168cb5d8"/>
       <element xsi:type="archimate:BusinessService" name="Atención de incidentes" id="id-e492dfd0a27f48619e4e6b9ed5e0bbaa"/>
       <element xsi:type="archimate:BusinessService" name="Curso virtual SSF" id="id-2fbc4b31feb84d449260830e18900797"/>
-      <element xsi:type="archimate:BusinessService" name="Estado del trámite" id="id-499c59a0d2f04fefa6ef55eeb55c2650"/>
+      <element xsi:type="archimate:BusinessService" name="Estado de trámite o solicitud" id="id-499c59a0d2f04fefa6ef55eeb55c2650"/>
       <element xsi:type="archimate:BusinessService" name="Emisión de oficios de apoyo a la gestión de cobro" id="id-3b6326a75e494c0895819dd27077d939"/>
       <element xsi:type="archimate:BusinessService" name="Evaluación de la información de las CCF" id="id-6c88e4f527d742ed88d1b76faaedd2c1"/>
       <element xsi:type="archimate:BusinessService" name="Gestión de comunicaciones" id="id-c812f8f0d24946a8bc01045be04150e4"/>
@@ -3445,7 +3445,7 @@ sistemas de información</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-23fb5eb10b51421abb0fedf693249c30" source="id-4d8894f1f58f472b8d2e2b595b86dbdf" target="id-fff8f91e6a684f1a970bf7305a3cc036" archimateRelationship="id-a887f0510e1043c8b4cb113852aaffd9"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-132ddd4553df4a0d98d7305ae51c2094" targetConnections="id-bdb088ab41874c45aecc9acbc1f1f138" archimateElement="id-6c88e4f527d742ed88d1b76faaedd2c1">
-              <bounds x="384" y="32" width="120" height="55"/>
+              <bounds x="384" y="12" width="120" height="75"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-071f25415e3349258cc728e6ba7fe77b" source="id-132ddd4553df4a0d98d7305ae51c2094" target="id-e56cf809378e4a69bbb26c3c5eb9281e" archimateRelationship="id-6456092531e440f49154b8aaeb990ddf"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-fff8f91e6a684f1a970bf7305a3cc036" targetConnections="id-23fb5eb10b51421abb0fedf693249c30" archimateElement="id-edefa23721e749f7a0ed812dd89193d2">
@@ -3527,7 +3527,7 @@ sistemas de información</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-628a51ae77dc48f58c4094e6e47f38af" source="id-1fa734806c614211bb1d5fa29c8b115c" target="id-d0eba54f3b5a4ae5b5b6f966a962a66b" archimateRelationship="id-04d2105a7fcd433c9e611d40bc37c46b"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-ec0545f814d2481c8c2d3739cec1dd62" targetConnections="id-713fff1e7cfe42428fc4ba2a828f5bca" archimateElement="id-7e3a50a5845e422b99937a3db1ee9329">
-              <bounds x="395" y="438" width="120" height="55"/>
+              <bounds x="395" y="438" width="121" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5e56b50abdc94ce4bcb59cebf77f0d88" source="id-ec0545f814d2481c8c2d3739cec1dd62" target="id-d0eba54f3b5a4ae5b5b6f966a962a66b" archimateRelationship="id-894b05da395843159f497f2adc383bc9"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-7fb03ad0b634412cab21e7ef2ebb2062" targetConnections="id-662c70c60b4d4ec5a0d2dbc55f3a385e" archimateElement="id-c9493cd1c59d4ad38aa833536eb252a5">
@@ -3543,7 +3543,7 @@ sistemas de información</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-4cd2330c73ce4c51b8db3a0e366c7209" source="id-5f36aeba43564fc6b8a80b33f00383f4" target="id-d0eba54f3b5a4ae5b5b6f966a962a66b" archimateRelationship="id-2a2d262a931c40cba284c23e17482fc9"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-ca84462751214d5d8e4b217cb284710f" targetConnections="id-4d20c2715d9d45b7bb9bd5134c138402" archimateElement="id-38e04802a2ca469d97d24a96b594cfae">
-              <bounds x="394" y="9" width="120" height="55"/>
+              <bounds x="394" y="-12" width="135" height="76"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-614ae27466d6444188fa105970de07c0" source="id-ca84462751214d5d8e4b217cb284710f" target="id-4d3c54d859a641b3adaffc3ed9f0a48b" archimateRelationship="id-c939bca9367843fd991b57606f629fde"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-c22d17f8c05245b28306a77c67dc1c19" targetConnections="id-ee842027511242e5a8ee54f23b379153" archimateElement="id-c1e442ee77e942d6a9a36fb5078c6b7a">
