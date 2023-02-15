@@ -1297,8 +1297,44 @@
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de infraestructura tecnológica" id="id-3175c8310cf4429eafffe2c5b4e40b11">
         <child xsi:type="archimate:Note" id="id-b6be989882734e01942d1611d097216d" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
-          <bounds x="24" y="12" width="1021" height="80"/>
+          <bounds x="24" y="12" width="1189" height="73"/>
           <content>Dominio de arquitectura de infraestructura tecnológica</content>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-9cf69dac1c7c47a2ae5d9eaa80dc9d4f" model="id-644c5ed31b7e40e199496e0f9824d698">
+          <bounds x="312" y="120" width="157" height="61"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-3555e1e0ccc2417d9482612849fa2a09" model="id-232a7e98ee094d96abb2355ca20a9e0b">
+          <bounds x="108" y="228" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-c2a50e98272344b9a3fdbcac829ea0f8" model="id-01c414f484c4441485bdca4afc17d0da">
+          <bounds x="108" y="312" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-9faaf095063e4c2e8a17351f49d14a8b" model="id-797743a1adee41b984e528fdb313a543">
+          <bounds x="108" y="396" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-d7d6899f5bfa4fac9b7d9bc7987a2017" model="id-70a9a7456910440eba7f7ba16fd94521">
+          <bounds x="264" y="228" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-50811441402f4e13b13d7f433b0981f7" model="id-f1360d4303c84883be623a63943fd53c">
+          <bounds x="264" y="312" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-93103ae1a2c44e6ca2a0d9fb63ea3df8" model="id-dca18ea78e464acc8730220a7536a11e">
+          <bounds x="264" y="396" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-3d3eb6382fe1474b94457cf1f5bf59f2" model="id-85029c23d296423ca9eb06e60ed47696">
+          <bounds x="420" y="228" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-81ca1d44fbff4d52b63a9ae3f60cad1b" model="id-fa743a3d84d84b6384d1253083954d0b">
+          <bounds x="420" y="312" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-cc8f9cf96e35425f9a282287d43a56e4" model="id-85b1502beea04ea3aabb6545ca40884e">
+          <bounds x="420" y="396" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-bb1e901d5b964e37a75082c27ffbe192" model="id-11f5094fa7e9468e9bfa77755cca90f1">
+          <bounds x="576" y="228" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramModelReference" id="id-57e6b2fbd77e4f358cba943f8671720e" model="id-a1debb35aae04a0f9a823d3d81c56cb4">
+          <bounds x="576" y="312" width="120" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de seguridad" id="id-e5218d222e154b69aa29337af49d2e4b">
@@ -1309,7 +1345,7 @@
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de sistemas de información" id="id-d11bb17c1e054f7bae276ed52dd33ab8">
         <child xsi:type="archimate:Note" id="id-f3fe553f0c974c3b9d6858e143c1dc01" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
-          <bounds x="24" y="12" width="985" height="80"/>
+          <bounds x="24" y="12" width="1141" height="80"/>
           <content>Dominio de arquitectura de sistemas de información</content>
         </child>
         <child xsi:type="archimate:DiagramModelReference" id="id-4b9a79223bcf440d927089d3b9008ecb" model="id-215c1d34c39745c0a9f3d2bb76c68fe3">
@@ -2147,6 +2183,19 @@ sistemas de información</content>
             </child>
           </child>
         </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="SIMON-Pruebas" id="id-a1debb35aae04a0f9a823d3d81c56cb4">
+          <child xsi:type="archimate:DiagramObject" id="id-ff20976cfdfa4b5aa67cb98209423b65" archimateElement="id-95bc5dee923a468eb0bb0e745588f3a4">
+            <bounds x="108" y="96" width="193" height="55"/>
+            <sourceConnection id="id-4c19b06fa22b41d295f77d602933fa52" source="id-ff20976cfdfa4b5aa67cb98209423b65" target="id-7305862656b04d2eb194b58cb9e993a5"/>
+          </child>
+          <child xsi:type="archimate:Group" id="id-7305862656b04d2eb194b58cb9e993a5" name="Nodos Virtuales" targetConnections="id-4c19b06fa22b41d295f77d602933fa52" textAlignment="1">
+            <bounds x="108" y="180" width="181" height="109"/>
+            <child xsi:type="archimate:DiagramObject" id="id-105d141da86649308f2ee826d868026e" archimateElement="id-5d7470f1afff4141b3da9fd0cd3cfc3c">
+              <bounds x="36" y="36" width="120" height="55"/>
+            </child>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="Catálogo Elementos de infraestructura tecnológica" id="id-644c5ed31b7e40e199496e0f9824d698"/>
       </folder>
       <folder name="Dominio de arquitectura de seguridad" id="id-bd0ba3115da744e2859732741fac31a4"/>
       <folder name="Dominio de arquitectura de sistemas de información" id="id-1f567edc904c4f25a7415122996551af">
@@ -4698,7 +4747,7 @@ sistemas de información</content>
         <content>Procesos seleccionados</content>
       </child>
       <child xsi:type="archimate:Note" id="id-17ab505c63b040a88aee55ad68cd2082" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
-        <bounds x="36" y="24" width="781" height="80"/>
+        <bounds x="36" y="24" width="1009" height="80"/>
         <content>Modelos de arquitectura empresarial - SSF</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-aaa57a8ac4914a31b4af637d7873541e" targetConnections="id-0df1c6848d824b05b6cc4420825c3154" archimateElement="id-9c66186df4cf4f72a2a44b4d8dab8141">
@@ -4736,7 +4785,7 @@ sistemas de información</content>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:Note" id="id-9e9ba99767344f1a8320d4e5721e7d98" targetConnections="id-9438ddb1e88d41b0a782063fe91d9ffc" font="1|Lucida Grande|24.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
-        <bounds x="408" y="132" width="373" height="73"/>
+        <bounds x="408" y="108" width="373" height="97"/>
         <content>Metamodelo de arquitectura empresarial</content>
       </child>
       <child xsi:type="archimate:DiagramModelReference" id="id-808c162513e44665b38f81126d003db8" targetConnections="id-8b68c10ff3c14de384ab7b65c7e0572e" model="id-7245abe4cf8f4503a15503103e50ef7c">
