@@ -4804,7 +4804,7 @@ sistemas de información</content>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:Note" id="id-9e9ba99767344f1a8320d4e5721e7d98" targetConnections="id-9438ddb1e88d41b0a782063fe91d9ffc" font="1|Lucida Grande|24.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
-        <bounds x="408" y="108" width="373" height="97"/>
+        <bounds x="408" y="120" width="373" height="97"/>
         <content>Metamodelo de arquitectura empresarial</content>
       </child>
       <child xsi:type="archimate:DiagramModelReference" id="id-808c162513e44665b38f81126d003db8" targetConnections="id-8b68c10ff3c14de384ab7b65c7e0572e" model="id-7245abe4cf8f4503a15503103e50ef7c">
