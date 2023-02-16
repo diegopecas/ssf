@@ -1302,7 +1302,7 @@
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Dominio de arquitectura de infraestructura tecnológica" id="id-3175c8310cf4429eafffe2c5b4e40b11">
         <child xsi:type="archimate:Note" id="id-b6be989882734e01942d1611d097216d" font="1|Lucida Grande|36.0|0|COCOA|1|LucidaGrande" textAlignment="1" borderType="2">
-          <bounds x="24" y="12" width="1021" height="80"/>
+          <bounds x="24" y="12" width="1189" height="73"/>
           <content>Dominio de arquitectura de infraestructura tecnológica</content>
         </child>
       </element>
