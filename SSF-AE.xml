@@ -2389,29 +2389,6 @@ sistemas de información</content>
         </folder>
         <folder name="Arquitecturas de referencia" id="id-3651a8a9e4174850a22fb6164ef48783">
           <documentation>La SSF no cuenta con arquitecturas de referencia que permita guiar el planteamiento de soluciones de sistemas de información.</documentation>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Arquitectura de referencia general" id="id-a6e8fc1fb7dc4fc9ba4e605d1e0a0811">
-            <child xsi:type="archimate:Group" id="id-eb4291f539b14ed39643c78d5ea8ff4e" name="Zona de canales" textAlignment="1">
-              <bounds x="288" y="96" width="577" height="140"/>
-            </child>
-            <child xsi:type="archimate:Group" id="id-2956bca0b2b34ab6b01f73802824211c" name="Zona de transaccional" textAlignment="1">
-              <bounds x="288" y="252" width="577" height="140"/>
-            </child>
-            <child xsi:type="archimate:Group" id="id-6c38a1f655a645129e4be8798779b048" name="Zona de almacenamiento" textAlignment="1">
-              <bounds x="288" y="408" width="577" height="140"/>
-            </child>
-            <child xsi:type="archimate:Group" id="id-28296bae05d94e39aeced5d97c112dc7" name="Zona de interoperabilidad con externos" textAlignment="1">
-              <bounds x="876" y="96" width="253" height="229"/>
-            </child>
-            <child xsi:type="archimate:Group" id="id-ff577602b05642bba7e50b58f563485f" name="Zona de seguridad" textAlignment="1">
-              <bounds x="24" y="96" width="253" height="217"/>
-            </child>
-            <child xsi:type="archimate:Group" id="id-88005a4dbcda4fc7835dcc78a2f533d1" name="Zona de notificaciones" textAlignment="1">
-              <bounds x="876" y="336" width="253" height="212"/>
-            </child>
-            <child xsi:type="archimate:Group" id="id-93c93bf0e2a14920817ff2cc113dda0f" name="Zona transversal" textAlignment="1">
-              <bounds x="24" y="324" width="253" height="224"/>
-            </child>
-          </element>
         </folder>
         <folder name="Arquitecturas de solución" id="id-aee599a8fff74e70b4cb7b07a9a9474e"/>
         <folder name="Arquitecturas de software" id="id-37baecf668d846838543eb67cc145c89">
@@ -5627,6 +5604,21 @@ sistemas de información</content>
           </element>
         </folder>
         <folder name="Modelos operativos" id="id-54d8372864094408bddb9d6ce9d7783e"/>
+      </folder>
+      <folder name="Dominio de arquitectura de sistemas de información" id="id-8a04f26143d84894ba7e6c8412db2655">
+        <folder name="Arquitecturas de referencia" id="id-cc90a762f7ea4b0d8b3b9cac136ea138">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Definición de arquitectura de referencia" id="id-fc0ce50ac0e3467391c64961baca6435"/>
+        </folder>
+        <folder name="Arquitecturas de software" id="id-e972558041a44752a928f9fd8c9e737a">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Definición de arquitectura de software" id="id-e3f887eccd5a4356a87c36e3acebf616"/>
+        </folder>
+        <folder name="Arquitecturas de solución" id="id-ddd1fb8f5f464377a25a5d0a1c7711ea">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Definición de arquitectura de solución" id="id-6648656e8d674326a3cc0901f8d15f5f"/>
+        </folder>
+        <folder name="Catálogo de aplicaciones" id="id-5b7eea0c8bdc4b4baf66adb0af9d0b6a">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Elementos de catálogo de aplicaciones" id="id-902d6b63afe74da9af9b7041bbbc08b1"/>
+        </folder>
+        <folder name="Relaciones sistemas de información" id="id-71f210132667483c802683dc7a98a70c"/>
       </folder>
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Inicio" id="id-642583458afb4c2d84ff2b2fb715af38">
