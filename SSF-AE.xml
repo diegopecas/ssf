@@ -217,6 +217,7 @@
         <element xsi:type="archimate:BusinessProcess" name="Gestión de la demanda y las relaciones con el negocio" id="id-8bb64053d888421dbc720f7552185432"/>
         <element xsi:type="archimate:BusinessProcess" name="Gestión de incidentes de seguridad" id="id-473205cfdfe447e08bf9c06880edf868"/>
         <element xsi:type="archimate:BusinessProcess" name="Gestión de administración de bases de datos" id="id-a769ecc0bf694389b29ac60fdb8173cb"/>
+        <element xsi:type="archimate:BusinessProcess" name="Automatización de procesos" id="id-0e8602581864437a98a627b7f0c29935"/>
       </folder>
       <folder name="Procedimientos interacción con el ciudadano" id="id-cf3c13f5a26e454fa807797969ea49b8">
         <element xsi:type="archimate:BusinessProcess" name="Canales de atención al ciudadano" id="id-87b23865db6845de8aa67c8a40d86d01"/>
@@ -235,6 +236,7 @@
         <element xsi:type="archimate:BusinessProcess" name="Procedimiento producto / servicio no conforme" id="id-f5d20d4b36a44719aecf3a1584922099"/>
         <element xsi:type="archimate:BusinessProcess" name="Procedimiento recaudo de cuota de sostenimiento de la entidad" id="id-fce91748273445ada4bc1173867c5669"/>
         <element xsi:type="archimate:BusinessProcess" name="Procedimiento registro, administración y análisis de indicadores" id="id-a0442e51e2264432bb8ec9580bfba176"/>
+        <element xsi:type="archimate:BusinessProcess" name="Gestión de portafolio de programas y proyectos" id="id-af1e18240a0a4f2382615176be16894d"/>
       </folder>
       <element xsi:type="archimate:BusinessProcess" name="Gestión de sistemas de información" id="id-0a74200f9d8347fead2f0021a29b6389"/>
       <element xsi:type="archimate:BusinessProcess" name="Planeación institucional" id="id-5fb226b7997e41679211aa8ed927d683"/>
